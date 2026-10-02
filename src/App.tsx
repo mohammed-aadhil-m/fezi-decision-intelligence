@@ -10,10 +10,16 @@ import { DecisionReportView } from './components/DecisionReportView';
 import { ShareModal } from './components/ShareModal';
 import { DecisionReelModal } from './components/DecisionReelModal';
 import { DashboardModal } from './components/DashboardModal';
+import { AuthModal } from './components/AuthModal';
+import { User } from './types/decision';
 
 export const App: React.FC = () => {
   // Navigation / View State
   const [currentView, setCurrentView] = useState<'landing' | 'wizard' | 'analyzing' | 'report'>('landing');
+
+  // User Authentication State
+  const [user, setUser] = useState<User | null>(api.getCurrentUser());
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
 
   // Active Decision Report
   const [activeReport, setActiveReport] = useState<DecisionReport>(SAMPLE_DECISIONS[0]);
@@ -21,10 +27,12 @@ export const App: React.FC = () => {
   // Saved Decisions list (persistent in backend database with local cache fallback)
   const [savedDecisions, setSavedDecisions] = useState<DecisionReport[]>(SAMPLE_DECISIONS);
 
-  // Load from backend DB on mount
+  // Check auth and load decisions from backend DB on mount
   useEffect(() => {
-    const loadDecisions = async () => {
+    const initializeAuthAndData = async () => {
       try {
+        const verifiedUser = await api.getMe();
+        if (verifiedUser) setUser(verifiedUser);
         const remote = await api.getDecisions();
         if (remote && remote.length > 0) {
           setSavedDecisions(remote);
@@ -34,8 +42,13 @@ export const App: React.FC = () => {
         console.warn('Could not sync with backend DB:', err);
       }
     };
-    loadDecisions();
+    initializeAuthAndData();
   }, []);
+
+  const handleLogout = async () => {
+    await api.logout();
+    setUser(null);
+  };
 
   // Wizard state
   const [pendingAnalysisContext, setPendingAnalysisContext] = useState<{
@@ -109,6 +122,9 @@ export const App: React.FC = () => {
         onOpenDashboard={() => setIsDashboardOpen(true)}
         onGoHome={() => setCurrentView('landing')}
         savedCount={savedDecisions.length}
+        user={user}
+        onOpenAuth={() => setIsAuthModalOpen(true)}
+        onLogout={handleLogout}
       />
 
       {/* Main Content Area */}
@@ -147,6 +163,12 @@ export const App: React.FC = () => {
       </main>
 
       {/* Modals */}
+      <AuthModal
+        isOpen={isAuthModalOpen}
+        onClose={() => setIsAuthModalOpen(false)}
+        onAuthSuccess={(authedUser) => setUser(authedUser)}
+      />
+
       <ShareModal
         report={activeReport}
         isOpen={isShareModalOpen}

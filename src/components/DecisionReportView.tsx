@@ -94,11 +94,19 @@ export const DecisionReportView: React.FC<DecisionReportViewProps> = ({
           <ScoreGauge score={report.score} verdict={report.verdict} size={210} />
 
           <div className="mt-4 pt-4 border-t border-white/10 w-full flex items-center justify-between">
-            <div className="text-xs text-[#8E959E] flex items-center gap-1.5 font-mono">
-              <span>Confidence:</span>
-              <span className="font-bold border border-white/20 px-2 py-0.5 rounded-full text-[#F5F5F2]">
-                {report.confidence} ({report.confidenceScore}%)
-              </span>
+            <div className="text-xs text-[#8E959E] flex items-center gap-3 font-mono flex-wrap">
+              <div className="flex items-center gap-1.5">
+                <span>Confidence:</span>
+                <span className="font-bold border border-white/20 px-2 py-0.5 rounded-full text-[#F5F5F2]">
+                  {report.confidence} ({report.confidenceScore}%)
+                </span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span>Evidence Coverage:</span>
+                <span className="font-bold border border-[#B9E5F3]/30 px-2 py-0.5 rounded-full text-[#B9E5F3]">
+                  {report.evidenceCoverage || 75}%
+                </span>
+              </div>
             </div>
 
             <button
@@ -337,6 +345,61 @@ export const DecisionReportView: React.FC<DecisionReportViewProps> = ({
         offeredSalary={report.userContext.offeredSalary || 8.0}
         commuteMinutes={report.userContext.commuteMinutes || 45}
       />
+
+      {/* What Could Change This Recommendation? (Section 21) */}
+      {report.whatCouldChange && report.whatCouldChange.length > 0 && (
+        <div className="rounded-3xl bg-[#0F1214] p-6 sm:p-8 border border-white/10 shadow-2xl">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="w-2 h-2 rounded-full bg-[#B9E5F3]"></span>
+            <span className="text-xs font-mono tracking-widest text-[#B9E5F3] uppercase">
+              Tipping Points & Sensitivity
+            </span>
+          </div>
+          <h3 className="text-2xl font-serif text-[#F5F5F2] font-normal mb-3">
+            What could change this recommendation?
+          </h3>
+          <p className="text-xs text-[#8E959E] mb-5">
+            FEZI dynamically identifies the parameter boundaries where the balance of evidence flips the verdict.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {report.whatCouldChange.map((item, idx) => (
+              <div
+                key={idx}
+                className="p-4 rounded-2xl bg-[#090B0C] border border-white/10 flex items-start gap-3"
+              >
+                <span className="text-xs font-mono text-[#B9E5F3] font-bold shrink-0">{idx + 1}.</span>
+                <span className="text-xs text-[#F5F5F2] leading-relaxed">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Assumptions Transparency Card (Section 18) */}
+      {report.assumptions && report.assumptions.length > 0 && (
+        <div className="rounded-3xl bg-[#0F1214] p-6 sm:p-8 border border-white/10 shadow-2xl">
+          <span className="text-xs font-mono tracking-widest text-[#8E959E] uppercase">
+            Model Assumptions
+          </span>
+          <h3 className="text-2xl font-serif text-[#F5F5F2] font-normal mt-0.5 mb-2">
+            Explicit Assumptions
+          </h3>
+          <p className="text-xs text-[#8E959E] mb-5">
+            Every critical baseline premise used in this calculation is displayed below for full auditability.
+          </p>
+          <div className="space-y-2">
+            {report.assumptions.map((asm, idx) => (
+              <div
+                key={idx}
+                className="p-3.5 rounded-xl bg-[#090B0C] border border-white/5 flex items-start gap-2.5 text-xs text-[#8E959E]"
+              >
+                <span className="text-[#B9E5F3] shrink-0 font-mono">•</span>
+                <span className="leading-relaxed">{asm}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Option Comparison Matrix */}
       {report.comparison && (

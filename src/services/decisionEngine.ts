@@ -56,23 +56,25 @@ export class DecisionEngine {
     // 6. Determine verdict from score
     const verdict = this.getVerdictFromScore(roundedScore);
 
-    // 7. Calculate confidence deterministically
+    // 7. Calculate confidence & evidence coverage deterministically
     const { confidence, confidenceScore, confidenceReasons } = this.calculateConfidence(
       context,
       evidence
     );
+    const supportedFactors = factors.filter((f) => f.rawScore >= 55).length;
+    const evidenceCoverage = Math.round((supportedFactors / factors.length) * 100);
 
     // 8. Scenario Analysis (Best Case, Expected Baseline, Worst Case)
     const scenarios = this.calculateScenarios(factors, context, roundedScore);
 
-    // 9. Sensitivity Analysis ("What could change the decision?")
-    const sensitivity = this.calculateSensitivity(factors, context, roundedScore);
+    // 9. True Dynamic Sensitivity Analysis & Tipping Points
+    const { sensitivity, whatCouldChange } = this.calculateSensitivity(normalizedWeights, context, roundedScore, verdict);
 
     // 10. Comparative analysis (e.g. Current Job vs Offered Job)
     const comparison = this.calculateComparison(context, factors, roundedScore);
 
-    // 11. Core Advantages & Risks
-    const { whyRecommended, biggestAdvantages, biggestRisks, unknowns } = this.generateInsights(
+    // 11. Core Advantages, Risks & Assumptions
+    const { whyRecommended, biggestAdvantages, biggestRisks, unknowns, assumptions } = this.generateInsights(
       factors,
       context,
       verdict,
@@ -89,10 +91,13 @@ export class DecisionEngine {
       confidence,
       confidenceScore,
       confidenceReasons,
+      evidenceCoverage,
       summary: this.generateExecutiveSummary(context, roundedScore, verdict, confidence),
       whyRecommended,
       biggestAdvantages,
       biggestRisks,
+      assumptions,
+      whatCouldChange,
       factors,
       evidence,
       scenarios,
@@ -381,58 +386,91 @@ export class DecisionEngine {
   }
 
   /**
-   * Deterministic Sensitivity Analysis
-   * Identifies exact tipping points where the recommendation changes
+   * Deterministic Sensitivity Analysis & Tipping Points
+   * Dynamically perturbs variables and recalculates the score to find exact tipping points
    */
   private calculateSensitivity(
-    factors: DecisionFactor[],
+    weights: Record<keyof UserPriorities, number>,
     context: DecisionContext,
-    baselineScore: number
-  ): SensitivityVariable[] {
-    const offeredSal = context.offeredSalary || 8.0;
+    baselineScore: number,
+    baselineVerdict: VerdictType
+  ): { sensitivity: SensitivityVariable[]; whatCouldChange: string[] } {
+    const list: SensitivityVariable[] = [];
+    const whatCouldChange: string[] = [];
+    const baseSal = Number(context.offeredSalary) || 8.0;
+    const baseCommute = Number(context.commuteMinutes) || 45;
 
-    return [
-      {
-        id: 'sens-salary-drop',
-        variable: 'Offered Compensation Floor',
-        baselineValue: `₹${offeredSal} LPA`,
-        thresholdCondition: 'Salary drops below ₹7.2 LPA',
-        resultingVerdict: 'NEUTRAL',
-        resultingScore: 57,
-        explanation: 'If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.',
-        sensitivity: 'HIGH',
-      },
-      {
-        id: 'sens-commute-spike',
-        variable: 'Commute Time Limit',
-        baselineValue: `${context.commuteMinutes || 45} mins`,
-        thresholdCondition: 'Commute exceeds 85 mins (one-way)',
-        resultingVerdict: 'NEUTRAL',
-        resultingScore: 58,
-        explanation: 'Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.',
-        sensitivity: 'HIGH',
-      },
-      {
-        id: 'sens-remote-shift',
-        variable: 'Remote Flexibility',
-        baselineValue: context.workMode || 'Hybrid (3 days)',
-        thresholdCondition: 'Full Remote work authorized',
-        resultingVerdict: 'STRONG YES',
-        resultingScore: 86,
-        explanation: 'Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).',
-        sensitivity: 'MEDIUM',
-      },
-      {
-        id: 'sens-equity-grant',
-        variable: 'Retention Bonus / ESOP',
-        baselineValue: 'Standard',
-        thresholdCondition: '₹1.5L retention bonus or ESOP added',
-        resultingVerdict: 'STRONG YES',
-        resultingScore: 84,
-        explanation: 'Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.',
-        sensitivity: 'MEDIUM',
-      },
-    ];
+    // 1. Dynamic Salary perturbation: -10%, -20%, -30%
+    const variations = [0.9, 0.8, 0.7];
+    for (const factor of variations) {
+      const testSal = +(baseSal * factor).toFixed(1);
+      const testCtx = { ...context, offeredSalary: testSal };
+      const testFactors = this.calculateDecisionFactors(testCtx, weights);
+      const testScore = Math.round(testFactors.reduce((s, f) => s + f.weightedContribution, 0));
+      const testVerdict = this.getVerdictFromScore(testScore);
+      const isTipping = testVerdict !== baselineVerdict;
+
+      if (isTipping || factor === 0.8) {
+        list.push({
+          id: `sens-sal-${testSal}`,
+          variable: 'Offered Compensation Floor',
+          baselineValue: `₹${baseSal} LPA`,
+          thresholdCondition: `Salary drops to ₹${testSal} LPA (-${Math.round((1 - factor) * 100)}%)`,
+          resultingVerdict: testVerdict,
+          resultingScore: testScore,
+          explanation: `If compensation drops to ₹${testSal} LPA, the financial delta shrinks, shifting the FEZI score from ${baselineScore} to ${testScore} (${testVerdict}).`,
+          sensitivity: isTipping ? 'HIGH' : 'MEDIUM',
+        });
+        if (isTipping && !whatCouldChange.some((w) => w.includes('salary'))) {
+          whatCouldChange.push(`Offered salary drops below ₹${testSal} LPA (changes verdict to ${testVerdict}).`);
+        }
+      }
+    }
+
+    // 2. Commute friction test (+35 mins)
+    const testCommute = baseCommute + 35;
+    const testCtxCommute = { ...context, commuteMinutes: testCommute };
+    const factorsCommute = this.calculateDecisionFactors(testCtxCommute, weights);
+    const scoreCommute = Math.round(factorsCommute.reduce((s, f) => s + f.weightedContribution, 0));
+    const verdictCommute = this.getVerdictFromScore(scoreCommute);
+    list.push({
+      id: 'sens-commute-spike',
+      variable: 'Commute Transit Limit',
+      baselineValue: `${baseCommute} mins`,
+      thresholdCondition: `Commute extends to ${testCommute} mins`,
+      resultingVerdict: verdictCommute,
+      resultingScore: scoreCommute,
+      explanation: `Daily one-way transit of ${testCommute} mins degrades Work-Life Balance score, lowering aggregate score to ${scoreCommute}.`,
+      sensitivity: verdictCommute !== baselineVerdict ? 'HIGH' : 'MEDIUM',
+    });
+    if (verdictCommute !== baselineVerdict) {
+      whatCouldChange.push(`Daily one-way commute exceeds ${testCommute} minutes.`);
+    }
+
+    // 3. Remote flexibility test
+    const testCtxRemote = { ...context, workMode: 'remote' as const, commuteMinutes: 0 };
+    const factorsRemote = this.calculateDecisionFactors(testCtxRemote, weights);
+    const scoreRemote = Math.round(factorsRemote.reduce((s, f) => s + f.weightedContribution, 0));
+    const verdictRemote = this.getVerdictFromScore(scoreRemote);
+    list.push({
+      id: 'sens-remote-shift',
+      variable: 'Remote Work Flexibility',
+      baselineValue: context.workMode || 'Hybrid',
+      thresholdCondition: '100% Full Remote authorized',
+      resultingVerdict: verdictRemote,
+      resultingScore: scoreRemote,
+      explanation: `Zero commute overhead lifts lifestyle and location scores, elevating score to ${scoreRemote} (${verdictRemote}).`,
+      sensitivity: 'MEDIUM',
+    });
+    if (verdictRemote !== baselineVerdict) {
+      whatCouldChange.push(`Transitioning to full remote work lifts verdict to ${verdictRemote}.`);
+    }
+
+    if (whatCouldChange.length === 0) {
+      whatCouldChange.push('The decision recommendation is resilient across standard sensitivity variations.');
+    }
+
+    return { sensitivity: list, whatCouldChange };
   }
 
   /**
@@ -523,10 +561,16 @@ export class DecisionEngine {
     const unknowns = [
       'Exact variable bonus payout realization rate over the past 2 fiscal years.',
       'Daily on-call incident frequency and weekend emergency support expectations.',
-      'Formal policy regarding hybrid flexibility during monsoon or peak traffic periods.',
+      'Formal policy regarding hybrid flexibility during peak weather or transport disruptions.',
     ];
 
-    return { whyRecommended, biggestAdvantages, biggestRisks, unknowns };
+    const assumptions = [
+      `Base compensation figures (₹${context.offeredSalary || 8} LPA) represent formalized annual gross contract amounts.`,
+      `Commute friction is calculated assuming a ${context.commuteMinutes || 45}-minute transit journey on a ${context.workMode || 'hybrid'} schedule.`,
+      `Official cost-of-living and wage percentiles reflect current regional statistical indices.`,
+    ];
+
+    return { whyRecommended, biggestAdvantages, biggestRisks, unknowns, assumptions };
   }
 
   private generateExecutiveSummary(
@@ -535,6 +579,10 @@ export class DecisionEngine {
     verdict: VerdictType,
     confidence: ConfidenceLevel
   ): string {
-    return `Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at ${score}/100 (${verdict}) with ${confidence} Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.`;
+    const loc = context.offeredLocation || 'target location';
+    const hike = context.currentSalary && context.offeredSalary
+      ? Math.round(((context.offeredSalary - context.currentSalary) / context.currentSalary) * 100)
+      : 30;
+    return `Based on the information provided, available evidence, assumptions, and your priorities, FEZI leans toward this option with a score of ${score}/100 (${verdict}) and ${confidence} Confidence. The compensation advancement (+${hike}%) and career growth alignment outweigh commute friction under current baseline assumptions.`;
   }
 }

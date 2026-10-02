@@ -1,8 +1,10 @@
+import 'dotenv/config';
 import http from 'http';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { handleApiRequest } from './apiRouter';
+import { PostgresDatabase } from './database/postgres';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -24,11 +26,21 @@ const MIME_TYPES: Record<string, string> = {
   '.woff2': 'font/woff2',
 };
 
+// Startup Migration Runner
+PostgresDatabase.getInstance()
+  .runMigrations()
+  .then((res) => {
+    console.log(`🚀 [FEZI Database] Schema initialized (${res.applied.length} migrations processed).`);
+  })
+  .catch((err) => {
+    console.error('💥 [FEZI Database] Schema initialization warning:', err.message);
+  });
+
 const server = http.createServer(async (req, res) => {
   const url = req.url || '/';
 
-  // 1. Route API requests
-  if (url.startsWith('/api')) {
+  // 1. Route API, Health and Readiness requests
+  if (url.startsWith('/api') || url === '/health' || url === '/ready') {
     return handleApiRequest(req, res, () => {
       res.writeHead(404, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'Endpoint not found' }));

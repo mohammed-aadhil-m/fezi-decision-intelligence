@@ -19,7 +19,19 @@ export type VerdictType =
 
 export type ConfidenceLevel = 'HIGH' | 'MEDIUM' | 'LOW';
 
-export type EvidenceType = 'VERIFIED' | 'ESTIMATED' | 'USER_PROVIDED' | 'UNKNOWN';
+export type EvidenceType = 'VERIFIED' | 'ESTIMATED' | 'USER_PROVIDED' | 'UNKNOWN' | 'CONFLICTING';
+
+export interface User {
+  id: string;
+  email: string;
+  name: string;
+}
+
+export interface AuthState {
+  user: User | null;
+  token: string | null;
+  isAuthenticated: boolean;
+}
 
 export interface EvidenceItem {
   id: string;
@@ -131,10 +143,13 @@ export interface DecisionReport {
   confidence: ConfidenceLevel;
   confidenceScore: number; // 0-100
   confidenceReasons: string[];
+  evidenceCoverage?: number; // 0-100 percentage
   summary: string;
   whyRecommended: string[];
   biggestAdvantages: string[];
   biggestRisks: string[];
+  assumptions?: string[];
+  whatCouldChange?: string[];
   factors: DecisionFactor[];
   evidence: EvidenceItem[];
   scenarios: Scenario[];

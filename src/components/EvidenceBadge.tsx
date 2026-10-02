@@ -53,5 +53,17 @@ export const EvidenceBadge: React.FC<EvidenceBadgeProps> = ({
           {showLabel && <span>UNKNOWN</span>}
         </span>
       );
+    case 'CONFLICTING':
+      return (
+        <span
+          className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-mono font-medium border border-dashed border-[#B9E5F3]/60 text-[#B9E5F3] bg-[#B9E5F3]/10 ${className}`}
+          title="Conflicting: Inconsistent benchmarks found across sources"
+        >
+          <span className="w-1.5 h-1.5 rounded-full bg-[#B9E5F3]"></span>
+          {showLabel && <span>CONFLICTING</span>}
+        </span>
+      );
+    default:
+      return null;
   }
 };

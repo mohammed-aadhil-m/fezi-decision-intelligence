@@ -6,6 +6,9 @@ interface NavbarProps {
   onOpenDashboard: () => void;
   onGoHome: () => void;
   savedCount: number;
+  user?: { name: string; email: string } | null;
+  onOpenAuth?: () => void;
+  onLogout?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -13,6 +16,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenDashboard,
   onGoHome,
   savedCount,
+  user,
+  onOpenAuth,
+  onLogout,
 }) => {
   return (
     <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-[#090B0C]/90 border-b border-white/5 transition-all">
@@ -40,7 +46,31 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
 
         {/* Navigation CTAs */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5 sm:gap-3">
+          {/* User Auth indicator */}
+          {user ? (
+            <div className="flex items-center gap-2">
+              <div className="hidden md:flex items-center gap-1.5 px-3 py-1 rounded-xl bg-white/5 border border-white/10 text-xs font-mono text-[#F5F5F2]">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#B9E5F3]"></span>
+                <span className="truncate max-w-[120px]">{user.name}</span>
+              </div>
+              <button
+                onClick={onLogout}
+                className="text-[11px] font-mono text-[#8E959E] hover:text-[#F5F5F2] px-2 py-1 transition"
+                title="Sign Out"
+              >
+                Sign Out
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={onOpenAuth}
+              className="text-xs font-mono text-[#8E959E] hover:text-[#B9E5F3] px-2.5 py-1.5 rounded-xl border border-white/10 hover:border-white/20 transition"
+            >
+              Sign In
+            </button>
+          )}
+
           {/* Secondary CTA: transparent bg with border */}
           <button
             onClick={onOpenDashboard}
@@ -57,7 +87,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Primary CTA: #B9E5F3 background with #090B0C text */}
           <button
             onClick={onNewDecision}
-            className="flex items-center gap-1.5 px-4 py-1.5 rounded-xl bg-[#B9E5F3] hover:bg-[#a6dcf0] text-[#090B0C] font-semibold text-xs transition font-sans"
+            className="flex items-center gap-1.5 px-3 sm:px-4 py-1.5 rounded-xl bg-[#B9E5F3] hover:bg-[#a6dcf0] text-[#090B0C] font-semibold text-xs transition font-sans"
           >
             <Plus className="w-3.5 h-3.5" />
             <span>Make a Decision</span>

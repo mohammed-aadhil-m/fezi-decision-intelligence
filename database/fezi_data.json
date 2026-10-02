@@ -1,2165 +1,2195 @@
-[
-  {
-    "id": "dec-1790934542611",
-    "createdAt": "2026-10-02T09:49:02.611Z",
-    "title": "Should I start this B2B SaaS venture?",
-    "category": "career",
-    "score": 83,
-    "verdict": "STRONG YES",
-    "confidence": "MEDIUM",
-    "confidenceScore": 75,
-    "confidenceReasons": [
-      "High candidate context completeness (80%+ parameters verified)",
-      "Cross-referenced with official state wage data and verified market indices",
-      "2 unknown variables remain (e.g. bonus realization rate, team runway)"
-    ],
-    "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 83/100 (STRONG YES) with MEDIUM Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
-    "whyRecommended": [
-      "Net compensation progression is favorable (+45% hike), placing you above the median benchmark for Chennai tech roles.",
-      "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
-      "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
-    ],
-    "biggestAdvantages": [
-      "Higher Net Income: +₹2.5 LPA increase boosts annual savings capacity.",
-      "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
-      "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
-    ],
-    "biggestRisks": [
-      "Commute Overhead: 45 minutes each way will consume ~7.5 hours weekly.",
-      "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
-      "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
-    ],
-    "factors": [
-      {
-        "id": "growth",
-        "name": "Career Growth",
-        "category": "Professional",
-        "weight": 27,
-        "rawScore": 87,
-        "weightedContribution": 23.5,
-        "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
-      },
-      {
-        "id": "salary",
-        "name": "Compensation & Financial Net",
-        "category": "Financial",
-        "weight": 23,
-        "rawScore": 88,
-        "weightedContribution": 20.2,
-        "explanation": "₹8 LPA represents a 45% hike over current ₹5.5 LPA base, placing within the 68th percentile for Chennai tech."
-      },
-      {
-        "id": "stability",
-        "name": "Market & Role Stability",
-        "category": "Risk",
-        "weight": 14,
-        "rawScore": 82,
-        "weightedContribution": 11.5,
-        "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
-      },
-      {
-        "id": "wlb",
-        "name": "Work-Life Balance",
-        "category": "Lifestyle",
-        "weight": 14,
-        "rawScore": 72,
-        "weightedContribution": 10.1,
-        "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
-      },
-      {
-        "id": "location",
-        "name": "Location & Commute Friction",
-        "category": "Environment",
-        "weight": 14,
-        "rawScore": 75,
-        "weightedContribution": 10.5,
-        "explanation": "45 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
-      },
-      {
-        "id": "culture",
-        "name": "Learning & Culture",
-        "category": "Growth",
-        "weight": 9,
-        "rawScore": 84,
-        "weightedContribution": 7.6,
-        "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-user-salary",
-        "statement": "Offered base compensation is ₹8 LPA in Chennai (OMR Corridor).",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Provided directly by the candidate in decision setup."
-      },
-      {
-        "id": "ev-user-current-salary",
-        "statement": "Current baseline salary is ₹5.5 LPA.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Self-reported by user for accurate delta calculation."
-      },
-      {
-        "id": "ev-user-commute",
-        "statement": "Expected one-way commute duration: 45 minutes (hybrid mode).",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "medium",
-        "rationale": "User estimate based on proposed office address and residence."
-      },
-      {
-        "id": "ev-src-0",
-        "statement": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top...",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: data.gov.in",
-        "sourceUrl": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 96% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-1",
-        "statement": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: ambitionbox.com",
-        "sourceUrl": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 91% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-2",
-        "statement": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single perso...",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: numbeo.com",
-        "sourceUrl": "https://www.numbeo.com/cost-of-living/in/Chennai",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 89% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-3",
-        "statement": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: cmdachennai.gov.in",
-        "sourceUrl": "https://www.cmdachennai.gov.in/infrastructure-metrics",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 94% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-4",
-        "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack spe...",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: nasscom.in",
-        "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-est-hike",
-        "statement": "Net compensation progression is +45% above previous baseline.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "high",
-        "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
-      },
-      {
-        "id": "ev-est-savings",
-        "statement": "Estimated annual investable surplus: ₹3L based on Chennai urban median living expenses.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "medium",
-        "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
-      },
-      {
-        "id": "ev-unk-bonus",
-        "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
-      },
-      {
-        "id": "ev-unk-health",
-        "statement": "Detailed company runway / department growth rate and layoff resilience history.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Private financial records are not publicly indexed for unlisted division."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 91,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Performance appraisal yields top-tier 15% increment in month 12",
-          "Metro corridor expansion shortens commute by 20 minutes",
-          "Rapid promotion path into Tech Lead responsibility"
-        ],
-        "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 83,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Base compensation at ₹8 LPA as formalized",
-          "45 mins daily commute on hybrid schedule",
-          "Standard peer learning and steady 10-12% market increments"
-        ],
-        "summary": "Solid professional advancement with favorable net financial surplus."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 64,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "Variable bonus component fails to pay out due to company division targets",
-          "Heavy peak-hour traffic extends commute to 80+ minutes daily",
-          "Legacy project maintenance exceeds planned modern architecture exposure"
-        ],
-        "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-salary-drop",
-        "variable": "Offered Compensation Floor",
-        "baselineValue": "₹8 LPA",
-        "thresholdCondition": "Salary drops below ₹7.2 LPA",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 57,
-        "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-commute-spike",
-        "variable": "Commute Time Limit",
-        "baselineValue": "45 mins",
-        "thresholdCondition": "Commute exceeds 85 mins (one-way)",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 58,
-        "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-remote-shift",
-        "variable": "Remote Flexibility",
-        "baselineValue": "hybrid",
-        "thresholdCondition": "Full Remote work authorized",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 86,
-        "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
-        "sensitivity": "MEDIUM"
-      },
-      {
-        "id": "sens-equity-grant",
-        "variable": "Retention Bonus / ESOP",
-        "baselineValue": "Standard",
-        "thresholdCondition": "₹1.5L retention bonus or ESOP added",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 84,
-        "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
-        "sensitivity": "MEDIUM"
-      }
-    ],
-    "comparison": {
-      "optionAName": "Software Developer (Chennai ₹8L)",
-      "optionBName": "Junior Software Engineer (Baseline ₹5.5L)",
-      "optionAScore": 83,
-      "optionBScore": 61,
-      "tradeoffSummary": "Option A delivers a +45% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
+{
+  "users": [
+    {
+      "id": "usr_1790942780918_5jddsrm",
+      "email": "test_1790942780813@fezi.ai",
+      "password_hash": "$2b$10$dT32S2dy.gRNXpIl78Noxus5u3eTUD.efx5aunJ1H4g19IDwHsEFW",
+      "name": "Dr. Ada Lovelace",
+      "created_at": "2026-10-02T12:06:20.921Z",
+      "updated_at": "2026-10-02T12:06:20.921Z"
+    },
+    {
+      "id": "usr_1790942807719_smlhohg",
+      "email": "test_1790942807627@fezi.ai",
+      "password_hash": "$2b$10$NBUSOcZlEzCvpmgA0tKlfebN6uVUlG27TN4B90gjOjBmlrXaWDTPC",
+      "name": "Dr. Ada Lovelace",
+      "created_at": "2026-10-02T12:06:47.721Z",
+      "updated_at": "2026-10-02T12:06:47.721Z"
+    },
+    {
+      "id": "usr_1790942980978_n544f74",
+      "email": "test_1790942980890@fezi.ai",
+      "password_hash": "$2b$10$DoUxaWTuz2ORrTXGoQX6Luvh8Rxp9FuRnD2mv4Axm/Pn9aBNjWSuy",
+      "name": "Dr. Ada Lovelace",
+      "created_at": "2026-10-02T12:09:40.981Z",
+      "updated_at": "2026-10-02T12:09:40.981Z"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "dec-1790934542611",
+      "createdAt": "2026-10-02T09:49:02.611Z",
+      "title": "Should I start this B2B SaaS venture?",
+      "category": "career",
+      "score": 83,
+      "verdict": "STRONG YES",
+      "confidence": "MEDIUM",
+      "confidenceScore": 75,
+      "confidenceReasons": [
+        "High candidate context completeness (80%+ parameters verified)",
+        "Cross-referenced with official state wage data and verified market indices",
+        "2 unknown variables remain (e.g. bonus realization rate, team runway)"
+      ],
+      "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 83/100 (STRONG YES) with MEDIUM Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
+      "whyRecommended": [
+        "Net compensation progression is favorable (+45% hike), placing you above the median benchmark for Chennai tech roles.",
+        "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
+        "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
+      ],
+      "biggestAdvantages": [
+        "Higher Net Income: +₹2.5 LPA increase boosts annual savings capacity.",
+        "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
+        "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
+      ],
+      "biggestRisks": [
+        "Commute Overhead: 45 minutes each way will consume ~7.5 hours weekly.",
+        "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
+        "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
+      ],
       "factors": [
         {
-          "name": "Annual Compensation",
-          "scoreA": 82,
-          "scoreB": 55,
-          "unit": "LPA",
-          "valueA": "₹8L",
-          "valueB": "₹5.5L"
+          "id": "growth",
+          "name": "Career Growth",
+          "category": "Professional",
+          "weight": 27,
+          "rawScore": 87,
+          "weightedContribution": 23.5,
+          "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
         },
         {
-          "name": "Tech Stack Modernity",
-          "scoreA": 88,
-          "scoreB": 65,
-          "valueA": "Cloud / React / Node",
-          "valueB": "Legacy Frameworks"
+          "id": "salary",
+          "name": "Compensation & Financial Net",
+          "category": "Financial",
+          "weight": 23,
+          "rawScore": 88,
+          "weightedContribution": 20.2,
+          "explanation": "₹8 LPA represents a 45% hike over current ₹5.5 LPA base, placing within the 68th percentile for Chennai tech."
         },
         {
-          "name": "Commute & Freedom",
-          "scoreA": 68,
-          "scoreB": 85,
-          "valueA": "45 mins (Hybrid)",
-          "valueB": "20 mins / Flexible"
+          "id": "stability",
+          "name": "Market & Role Stability",
+          "category": "Risk",
+          "weight": 14,
+          "rawScore": 82,
+          "weightedContribution": 11.5,
+          "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
         },
         {
-          "name": "Career Runway (2-Yr)",
-          "scoreA": 84,
-          "scoreB": 58,
-          "valueA": "High Growth Tier",
-          "valueB": "Plateauing"
+          "id": "wlb",
+          "name": "Work-Life Balance",
+          "category": "Lifestyle",
+          "weight": 14,
+          "rawScore": 72,
+          "weightedContribution": 10.1,
+          "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
         },
         {
-          "name": "Role Stability",
-          "scoreA": 80,
-          "scoreB": 85,
-          "valueA": "Established Sector",
-          "valueB": "Known Environment"
+          "id": "location",
+          "name": "Location & Commute Friction",
+          "category": "Environment",
+          "weight": 14,
+          "rawScore": 75,
+          "weightedContribution": 10.5,
+          "explanation": "45 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
+        },
+        {
+          "id": "culture",
+          "name": "Learning & Culture",
+          "category": "Growth",
+          "weight": 9,
+          "rawScore": 84,
+          "weightedContribution": 7.6,
+          "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
         }
-      ]
-    },
-    "unknowns": [
-      "Exact variable bonus payout realization rate over the past 2 fiscal years.",
-      "Daily on-call incident frequency and weekend emergency support expectations.",
-      "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I start this B2B SaaS venture?",
-      "category": "career",
-      "currentRole": "Junior Software Engineer",
-      "currentSalary": 5.5,
-      "currentLocation": "Coimbatore",
-      "experienceYears": 2.5,
-      "offeredRole": "Software Developer",
-      "offeredSalary": 8,
-      "offeredLocation": "Chennai (OMR Corridor)",
-      "workMode": "hybrid",
-      "commuteMinutes": 45,
-      "careerGoal": "Senior Fullstack Engineer within 2 years",
-      "customFields": {
+      ],
+      "evidence": [
+        {
+          "id": "ev-user-salary",
+          "statement": "Offered base compensation is ₹8 LPA in Chennai (OMR Corridor).",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Provided directly by the candidate in decision setup."
+        },
+        {
+          "id": "ev-user-current-salary",
+          "statement": "Current baseline salary is ₹5.5 LPA.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Self-reported by user for accurate delta calculation."
+        },
+        {
+          "id": "ev-user-commute",
+          "statement": "Expected one-way commute duration: 45 minutes (hybrid mode).",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "medium",
+          "rationale": "User estimate based on proposed office address and residence."
+        },
+        {
+          "id": "ev-src-0",
+          "statement": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top...",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: data.gov.in",
+          "sourceUrl": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 96% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-1",
+          "statement": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: ambitionbox.com",
+          "sourceUrl": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 91% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-2",
+          "statement": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single perso...",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: numbeo.com",
+          "sourceUrl": "https://www.numbeo.com/cost-of-living/in/Chennai",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 89% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-3",
+          "statement": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: cmdachennai.gov.in",
+          "sourceUrl": "https://www.cmdachennai.gov.in/infrastructure-metrics",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 94% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-4",
+          "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack spe...",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: nasscom.in",
+          "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-est-hike",
+          "statement": "Net compensation progression is +45% above previous baseline.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "high",
+          "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
+        },
+        {
+          "id": "ev-est-savings",
+          "statement": "Estimated annual investable surplus: ₹3L based on Chennai urban median living expenses.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "medium",
+          "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
+        },
+        {
+          "id": "ev-unk-bonus",
+          "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
+        },
+        {
+          "id": "ev-unk-health",
+          "statement": "Detailed company runway / department growth rate and layoff resilience history.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Private financial records are not publicly indexed for unlisted division."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 91,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Performance appraisal yields top-tier 15% increment in month 12",
+            "Metro corridor expansion shortens commute by 20 minutes",
+            "Rapid promotion path into Tech Lead responsibility"
+          ],
+          "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 83,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Base compensation at ₹8 LPA as formalized",
+            "45 mins daily commute on hybrid schedule",
+            "Standard peer learning and steady 10-12% market increments"
+          ],
+          "summary": "Solid professional advancement with favorable net financial surplus."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 64,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "Variable bonus component fails to pay out due to company division targets",
+            "Heavy peak-hour traffic extends commute to 80+ minutes daily",
+            "Legacy project maintenance exceeds planned modern architecture exposure"
+          ],
+          "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-salary-drop",
+          "variable": "Offered Compensation Floor",
+          "baselineValue": "₹8 LPA",
+          "thresholdCondition": "Salary drops below ₹7.2 LPA",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 57,
+          "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-commute-spike",
+          "variable": "Commute Time Limit",
+          "baselineValue": "45 mins",
+          "thresholdCondition": "Commute exceeds 85 mins (one-way)",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 58,
+          "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-remote-shift",
+          "variable": "Remote Flexibility",
+          "baselineValue": "hybrid",
+          "thresholdCondition": "Full Remote work authorized",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 86,
+          "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
+          "sensitivity": "MEDIUM"
+        },
+        {
+          "id": "sens-equity-grant",
+          "variable": "Retention Bonus / ESOP",
+          "baselineValue": "Standard",
+          "thresholdCondition": "₹1.5L retention bonus or ESOP added",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 84,
+          "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
+          "sensitivity": "MEDIUM"
+        }
+      ],
+      "comparison": {
+        "optionAName": "Software Developer (Chennai ₹8L)",
+        "optionBName": "Junior Software Engineer (Baseline ₹5.5L)",
+        "optionAScore": 83,
+        "optionBScore": 61,
+        "tradeoffSummary": "Option A delivers a +45% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
+        "factors": [
+          {
+            "name": "Annual Compensation",
+            "scoreA": 82,
+            "scoreB": 55,
+            "unit": "LPA",
+            "valueA": "₹8L",
+            "valueB": "₹5.5L"
+          },
+          {
+            "name": "Tech Stack Modernity",
+            "scoreA": 88,
+            "scoreB": 65,
+            "valueA": "Cloud / React / Node",
+            "valueB": "Legacy Frameworks"
+          },
+          {
+            "name": "Commute & Freedom",
+            "scoreA": 68,
+            "scoreB": 85,
+            "valueA": "45 mins (Hybrid)",
+            "valueB": "20 mins / Flexible"
+          },
+          {
+            "name": "Career Runway (2-Yr)",
+            "scoreA": 84,
+            "scoreB": 58,
+            "valueA": "High Growth Tier",
+            "valueB": "Plateauing"
+          },
+          {
+            "name": "Role Stability",
+            "scoreA": 80,
+            "scoreB": 85,
+            "valueA": "Established Sector",
+            "valueB": "Known Environment"
+          }
+        ]
+      },
+      "unknowns": [
+        "Exact variable bonus payout realization rate over the past 2 fiscal years.",
+        "Daily on-call incident frequency and weekend emergency support expectations.",
+        "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I start this B2B SaaS venture?",
+        "category": "career",
         "currentRole": "Junior Software Engineer",
         "currentSalary": 5.5,
-        "experienceYears": 2.5,
         "currentLocation": "Coimbatore",
-        "careerGoal": "Senior Fullstack Engineer within 2 years",
+        "experienceYears": 2.5,
         "offeredRole": "Software Developer",
         "offeredSalary": 8,
         "offeredLocation": "Chennai (OMR Corridor)",
         "workMode": "hybrid",
         "commuteMinutes": 45,
-        "benefits": "Standard medical cover, up to 10% variable bonus"
-      }
-    },
-    "userPriorities": {
-      "careerGrowth": 30,
-      "salary": 25,
-      "stability": 15,
-      "workLifeBalance": 15,
-      "locationAndCommute": 15,
-      "learningAndCulture": 10
-    },
-    "sources": [
-      {
-        "title": "Chennai Software Engineer Salary Report 2025-2026",
-        "url": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
-        "domain": "data.gov.in",
-        "authority": "GOVERNMENT",
-        "snippet": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top quartile at ₹11.5L.",
-        "reliabilityScore": 96
+        "careerGoal": "Senior Fullstack Engineer within 2 years",
+        "customFields": {
+          "currentRole": "Junior Software Engineer",
+          "currentSalary": 5.5,
+          "experienceYears": 2.5,
+          "currentLocation": "Coimbatore",
+          "careerGoal": "Senior Fullstack Engineer within 2 years",
+          "offeredRole": "Software Developer",
+          "offeredSalary": 8,
+          "offeredLocation": "Chennai (OMR Corridor)",
+          "workMode": "hybrid",
+          "commuteMinutes": 45,
+          "benefits": "Standard medical cover, up to 10% variable bonus"
+        }
       },
-      {
-        "title": "AmbitionBox & Glassdoor Chennai IT Compensation Index",
-        "url": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
-        "domain": "ambitionbox.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
-        "reliabilityScore": 91
+      "userPriorities": {
+        "careerGrowth": 30,
+        "salary": 25,
+        "stability": 15,
+        "workLifeBalance": 15,
+        "locationAndCommute": 15,
+        "learningAndCulture": 10
       },
-      {
-        "title": "Chennai Urban Transport & Living Cost Index (CMDA & Numbeo)",
-        "url": "https://www.numbeo.com/cost-of-living/in/Chennai",
-        "domain": "numbeo.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single person: ₹23,500. Transit: Metro + MRTS coverage expanding along Phase 2.",
-        "reliabilityScore": 89
-      },
-      {
-        "title": "Tamil Nadu Urban Infrastructure Living Index",
-        "url": "https://www.cmdachennai.gov.in/infrastructure-metrics",
-        "domain": "cmdachennai.gov.in",
-        "authority": "GOVERNMENT",
-        "snippet": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
-        "reliabilityScore": 94
-      },
-      {
-        "title": "Industry Hiring Outlook & Career Mobility: Should I start this B2B SaaS venture?",
-        "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "domain": "nasscom.in",
-        "authority": "OFFICIAL_EMPLOYER",
-        "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack specialties leading mobility.",
-        "reliabilityScore": 93
-      }
-    ]
-  },
-  {
-    "id": "dec-1790934542605",
-    "createdAt": "2026-10-02T09:49:02.605Z",
-    "title": "Should I start this B2B SaaS venture?",
-    "category": "career",
-    "score": 83,
-    "verdict": "STRONG YES",
-    "confidence": "MEDIUM",
-    "confidenceScore": 75,
-    "confidenceReasons": [
-      "High candidate context completeness (80%+ parameters verified)",
-      "Cross-referenced with official state wage data and verified market indices",
-      "2 unknown variables remain (e.g. bonus realization rate, team runway)"
-    ],
-    "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 83/100 (STRONG YES) with MEDIUM Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
-    "whyRecommended": [
-      "Net compensation progression is favorable (+45% hike), placing you above the median benchmark for Chennai tech roles.",
-      "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
-      "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
-    ],
-    "biggestAdvantages": [
-      "Higher Net Income: +₹2.5 LPA increase boosts annual savings capacity.",
-      "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
-      "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
-    ],
-    "biggestRisks": [
-      "Commute Overhead: 45 minutes each way will consume ~7.5 hours weekly.",
-      "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
-      "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
-    ],
-    "factors": [
-      {
-        "id": "growth",
-        "name": "Career Growth",
-        "category": "Professional",
-        "weight": 27,
-        "rawScore": 87,
-        "weightedContribution": 23.5,
-        "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
-      },
-      {
-        "id": "salary",
-        "name": "Compensation & Financial Net",
-        "category": "Financial",
-        "weight": 23,
-        "rawScore": 88,
-        "weightedContribution": 20.2,
-        "explanation": "₹8 LPA represents a 45% hike over current ₹5.5 LPA base, placing within the 68th percentile for Chennai tech."
-      },
-      {
-        "id": "stability",
-        "name": "Market & Role Stability",
-        "category": "Risk",
-        "weight": 14,
-        "rawScore": 82,
-        "weightedContribution": 11.5,
-        "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
-      },
-      {
-        "id": "wlb",
-        "name": "Work-Life Balance",
-        "category": "Lifestyle",
-        "weight": 14,
-        "rawScore": 72,
-        "weightedContribution": 10.1,
-        "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
-      },
-      {
-        "id": "location",
-        "name": "Location & Commute Friction",
-        "category": "Environment",
-        "weight": 14,
-        "rawScore": 75,
-        "weightedContribution": 10.5,
-        "explanation": "45 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
-      },
-      {
-        "id": "culture",
-        "name": "Learning & Culture",
-        "category": "Growth",
-        "weight": 9,
-        "rawScore": 84,
-        "weightedContribution": 7.6,
-        "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-user-salary",
-        "statement": "Offered base compensation is ₹8 LPA in Chennai (OMR Corridor).",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Provided directly by the candidate in decision setup."
-      },
-      {
-        "id": "ev-user-current-salary",
-        "statement": "Current baseline salary is ₹5.5 LPA.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Self-reported by user for accurate delta calculation."
-      },
-      {
-        "id": "ev-user-commute",
-        "statement": "Expected one-way commute duration: 45 minutes (hybrid mode).",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "medium",
-        "rationale": "User estimate based on proposed office address and residence."
-      },
-      {
-        "id": "ev-src-0",
-        "statement": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top...",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: data.gov.in",
-        "sourceUrl": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 96% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-1",
-        "statement": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: ambitionbox.com",
-        "sourceUrl": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 91% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-2",
-        "statement": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single perso...",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: numbeo.com",
-        "sourceUrl": "https://www.numbeo.com/cost-of-living/in/Chennai",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 89% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-3",
-        "statement": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: cmdachennai.gov.in",
-        "sourceUrl": "https://www.cmdachennai.gov.in/infrastructure-metrics",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 94% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-4",
-        "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack spe...",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: nasscom.in",
-        "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-est-hike",
-        "statement": "Net compensation progression is +45% above previous baseline.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "high",
-        "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
-      },
-      {
-        "id": "ev-est-savings",
-        "statement": "Estimated annual investable surplus: ₹3L based on Chennai urban median living expenses.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "medium",
-        "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
-      },
-      {
-        "id": "ev-unk-bonus",
-        "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
-      },
-      {
-        "id": "ev-unk-health",
-        "statement": "Detailed company runway / department growth rate and layoff resilience history.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Private financial records are not publicly indexed for unlisted division."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 91,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Performance appraisal yields top-tier 15% increment in month 12",
-          "Metro corridor expansion shortens commute by 20 minutes",
-          "Rapid promotion path into Tech Lead responsibility"
-        ],
-        "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 83,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Base compensation at ₹8 LPA as formalized",
-          "45 mins daily commute on hybrid schedule",
-          "Standard peer learning and steady 10-12% market increments"
-        ],
-        "summary": "Solid professional advancement with favorable net financial surplus."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 64,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "Variable bonus component fails to pay out due to company division targets",
-          "Heavy peak-hour traffic extends commute to 80+ minutes daily",
-          "Legacy project maintenance exceeds planned modern architecture exposure"
-        ],
-        "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-salary-drop",
-        "variable": "Offered Compensation Floor",
-        "baselineValue": "₹8 LPA",
-        "thresholdCondition": "Salary drops below ₹7.2 LPA",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 57,
-        "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-commute-spike",
-        "variable": "Commute Time Limit",
-        "baselineValue": "45 mins",
-        "thresholdCondition": "Commute exceeds 85 mins (one-way)",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 58,
-        "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-remote-shift",
-        "variable": "Remote Flexibility",
-        "baselineValue": "hybrid",
-        "thresholdCondition": "Full Remote work authorized",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 86,
-        "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
-        "sensitivity": "MEDIUM"
-      },
-      {
-        "id": "sens-equity-grant",
-        "variable": "Retention Bonus / ESOP",
-        "baselineValue": "Standard",
-        "thresholdCondition": "₹1.5L retention bonus or ESOP added",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 84,
-        "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
-        "sensitivity": "MEDIUM"
-      }
-    ],
-    "comparison": {
-      "optionAName": "Software Developer (Chennai ₹8L)",
-      "optionBName": "Junior Software Engineer (Baseline ₹5.5L)",
-      "optionAScore": 83,
-      "optionBScore": 61,
-      "tradeoffSummary": "Option A delivers a +45% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
-      "factors": [
+      "sources": [
         {
-          "name": "Annual Compensation",
-          "scoreA": 82,
-          "scoreB": 55,
-          "unit": "LPA",
-          "valueA": "₹8L",
-          "valueB": "₹5.5L"
+          "title": "Chennai Software Engineer Salary Report 2025-2026",
+          "url": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
+          "domain": "data.gov.in",
+          "authority": "GOVERNMENT",
+          "snippet": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top quartile at ₹11.5L.",
+          "reliabilityScore": 96
         },
         {
-          "name": "Tech Stack Modernity",
-          "scoreA": 88,
-          "scoreB": 65,
-          "valueA": "Cloud / React / Node",
-          "valueB": "Legacy Frameworks"
+          "title": "AmbitionBox & Glassdoor Chennai IT Compensation Index",
+          "url": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
+          "domain": "ambitionbox.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
+          "reliabilityScore": 91
         },
         {
-          "name": "Commute & Freedom",
-          "scoreA": 68,
-          "scoreB": 85,
-          "valueA": "45 mins (Hybrid)",
-          "valueB": "20 mins / Flexible"
+          "title": "Chennai Urban Transport & Living Cost Index (CMDA & Numbeo)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Chennai",
+          "domain": "numbeo.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single person: ₹23,500. Transit: Metro + MRTS coverage expanding along Phase 2.",
+          "reliabilityScore": 89
         },
         {
-          "name": "Career Runway (2-Yr)",
-          "scoreA": 84,
-          "scoreB": 58,
-          "valueA": "High Growth Tier",
-          "valueB": "Plateauing"
+          "title": "Tamil Nadu Urban Infrastructure Living Index",
+          "url": "https://www.cmdachennai.gov.in/infrastructure-metrics",
+          "domain": "cmdachennai.gov.in",
+          "authority": "GOVERNMENT",
+          "snippet": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
+          "reliabilityScore": 94
         },
         {
-          "name": "Role Stability",
-          "scoreA": 80,
-          "scoreB": 85,
-          "valueA": "Established Sector",
-          "valueB": "Known Environment"
+          "title": "Industry Hiring Outlook & Career Mobility: Should I start this B2B SaaS venture?",
+          "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "domain": "nasscom.in",
+          "authority": "OFFICIAL_EMPLOYER",
+          "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack specialties leading mobility.",
+          "reliabilityScore": 93
         }
       ]
     },
-    "unknowns": [
-      "Exact variable bonus payout realization rate over the past 2 fiscal years.",
-      "Daily on-call incident frequency and weekend emergency support expectations.",
-      "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I start this B2B SaaS venture?",
+    {
+      "id": "dec-1790934542605",
+      "createdAt": "2026-10-02T09:49:02.605Z",
+      "title": "Should I start this B2B SaaS venture?",
       "category": "career",
-      "currentRole": "Junior Software Engineer",
-      "currentSalary": 5.5,
-      "currentLocation": "Coimbatore",
-      "experienceYears": 2.5,
-      "offeredRole": "Software Developer",
-      "offeredSalary": 8,
-      "offeredLocation": "Chennai (OMR Corridor)",
-      "workMode": "hybrid",
-      "commuteMinutes": 45,
-      "careerGoal": "Senior Fullstack Engineer within 2 years",
-      "customFields": {
+      "score": 83,
+      "verdict": "STRONG YES",
+      "confidence": "MEDIUM",
+      "confidenceScore": 75,
+      "confidenceReasons": [
+        "High candidate context completeness (80%+ parameters verified)",
+        "Cross-referenced with official state wage data and verified market indices",
+        "2 unknown variables remain (e.g. bonus realization rate, team runway)"
+      ],
+      "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 83/100 (STRONG YES) with MEDIUM Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
+      "whyRecommended": [
+        "Net compensation progression is favorable (+45% hike), placing you above the median benchmark for Chennai tech roles.",
+        "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
+        "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
+      ],
+      "biggestAdvantages": [
+        "Higher Net Income: +₹2.5 LPA increase boosts annual savings capacity.",
+        "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
+        "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
+      ],
+      "biggestRisks": [
+        "Commute Overhead: 45 minutes each way will consume ~7.5 hours weekly.",
+        "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
+        "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
+      ],
+      "factors": [
+        {
+          "id": "growth",
+          "name": "Career Growth",
+          "category": "Professional",
+          "weight": 27,
+          "rawScore": 87,
+          "weightedContribution": 23.5,
+          "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
+        },
+        {
+          "id": "salary",
+          "name": "Compensation & Financial Net",
+          "category": "Financial",
+          "weight": 23,
+          "rawScore": 88,
+          "weightedContribution": 20.2,
+          "explanation": "₹8 LPA represents a 45% hike over current ₹5.5 LPA base, placing within the 68th percentile for Chennai tech."
+        },
+        {
+          "id": "stability",
+          "name": "Market & Role Stability",
+          "category": "Risk",
+          "weight": 14,
+          "rawScore": 82,
+          "weightedContribution": 11.5,
+          "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
+        },
+        {
+          "id": "wlb",
+          "name": "Work-Life Balance",
+          "category": "Lifestyle",
+          "weight": 14,
+          "rawScore": 72,
+          "weightedContribution": 10.1,
+          "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
+        },
+        {
+          "id": "location",
+          "name": "Location & Commute Friction",
+          "category": "Environment",
+          "weight": 14,
+          "rawScore": 75,
+          "weightedContribution": 10.5,
+          "explanation": "45 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
+        },
+        {
+          "id": "culture",
+          "name": "Learning & Culture",
+          "category": "Growth",
+          "weight": 9,
+          "rawScore": 84,
+          "weightedContribution": 7.6,
+          "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-user-salary",
+          "statement": "Offered base compensation is ₹8 LPA in Chennai (OMR Corridor).",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Provided directly by the candidate in decision setup."
+        },
+        {
+          "id": "ev-user-current-salary",
+          "statement": "Current baseline salary is ₹5.5 LPA.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Self-reported by user for accurate delta calculation."
+        },
+        {
+          "id": "ev-user-commute",
+          "statement": "Expected one-way commute duration: 45 minutes (hybrid mode).",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "medium",
+          "rationale": "User estimate based on proposed office address and residence."
+        },
+        {
+          "id": "ev-src-0",
+          "statement": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top...",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: data.gov.in",
+          "sourceUrl": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 96% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-1",
+          "statement": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: ambitionbox.com",
+          "sourceUrl": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 91% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-2",
+          "statement": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single perso...",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: numbeo.com",
+          "sourceUrl": "https://www.numbeo.com/cost-of-living/in/Chennai",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 89% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-3",
+          "statement": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: cmdachennai.gov.in",
+          "sourceUrl": "https://www.cmdachennai.gov.in/infrastructure-metrics",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 94% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-4",
+          "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack spe...",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: nasscom.in",
+          "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-est-hike",
+          "statement": "Net compensation progression is +45% above previous baseline.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "high",
+          "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
+        },
+        {
+          "id": "ev-est-savings",
+          "statement": "Estimated annual investable surplus: ₹3L based on Chennai urban median living expenses.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "medium",
+          "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
+        },
+        {
+          "id": "ev-unk-bonus",
+          "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
+        },
+        {
+          "id": "ev-unk-health",
+          "statement": "Detailed company runway / department growth rate and layoff resilience history.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Private financial records are not publicly indexed for unlisted division."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 91,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Performance appraisal yields top-tier 15% increment in month 12",
+            "Metro corridor expansion shortens commute by 20 minutes",
+            "Rapid promotion path into Tech Lead responsibility"
+          ],
+          "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 83,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Base compensation at ₹8 LPA as formalized",
+            "45 mins daily commute on hybrid schedule",
+            "Standard peer learning and steady 10-12% market increments"
+          ],
+          "summary": "Solid professional advancement with favorable net financial surplus."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 64,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "Variable bonus component fails to pay out due to company division targets",
+            "Heavy peak-hour traffic extends commute to 80+ minutes daily",
+            "Legacy project maintenance exceeds planned modern architecture exposure"
+          ],
+          "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-salary-drop",
+          "variable": "Offered Compensation Floor",
+          "baselineValue": "₹8 LPA",
+          "thresholdCondition": "Salary drops below ₹7.2 LPA",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 57,
+          "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-commute-spike",
+          "variable": "Commute Time Limit",
+          "baselineValue": "45 mins",
+          "thresholdCondition": "Commute exceeds 85 mins (one-way)",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 58,
+          "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-remote-shift",
+          "variable": "Remote Flexibility",
+          "baselineValue": "hybrid",
+          "thresholdCondition": "Full Remote work authorized",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 86,
+          "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
+          "sensitivity": "MEDIUM"
+        },
+        {
+          "id": "sens-equity-grant",
+          "variable": "Retention Bonus / ESOP",
+          "baselineValue": "Standard",
+          "thresholdCondition": "₹1.5L retention bonus or ESOP added",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 84,
+          "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
+          "sensitivity": "MEDIUM"
+        }
+      ],
+      "comparison": {
+        "optionAName": "Software Developer (Chennai ₹8L)",
+        "optionBName": "Junior Software Engineer (Baseline ₹5.5L)",
+        "optionAScore": 83,
+        "optionBScore": 61,
+        "tradeoffSummary": "Option A delivers a +45% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
+        "factors": [
+          {
+            "name": "Annual Compensation",
+            "scoreA": 82,
+            "scoreB": 55,
+            "unit": "LPA",
+            "valueA": "₹8L",
+            "valueB": "₹5.5L"
+          },
+          {
+            "name": "Tech Stack Modernity",
+            "scoreA": 88,
+            "scoreB": 65,
+            "valueA": "Cloud / React / Node",
+            "valueB": "Legacy Frameworks"
+          },
+          {
+            "name": "Commute & Freedom",
+            "scoreA": 68,
+            "scoreB": 85,
+            "valueA": "45 mins (Hybrid)",
+            "valueB": "20 mins / Flexible"
+          },
+          {
+            "name": "Career Runway (2-Yr)",
+            "scoreA": 84,
+            "scoreB": 58,
+            "valueA": "High Growth Tier",
+            "valueB": "Plateauing"
+          },
+          {
+            "name": "Role Stability",
+            "scoreA": 80,
+            "scoreB": 85,
+            "valueA": "Established Sector",
+            "valueB": "Known Environment"
+          }
+        ]
+      },
+      "unknowns": [
+        "Exact variable bonus payout realization rate over the past 2 fiscal years.",
+        "Daily on-call incident frequency and weekend emergency support expectations.",
+        "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I start this B2B SaaS venture?",
+        "category": "career",
         "currentRole": "Junior Software Engineer",
         "currentSalary": 5.5,
-        "experienceYears": 2.5,
         "currentLocation": "Coimbatore",
-        "careerGoal": "Senior Fullstack Engineer within 2 years",
+        "experienceYears": 2.5,
         "offeredRole": "Software Developer",
         "offeredSalary": 8,
         "offeredLocation": "Chennai (OMR Corridor)",
         "workMode": "hybrid",
         "commuteMinutes": 45,
-        "benefits": "Standard medical cover, up to 10% variable bonus"
-      }
-    },
-    "userPriorities": {
-      "careerGrowth": 30,
-      "salary": 25,
-      "stability": 15,
-      "workLifeBalance": 15,
-      "locationAndCommute": 15,
-      "learningAndCulture": 10
-    },
-    "sources": [
-      {
-        "title": "Chennai Software Engineer Salary Report 2025-2026",
-        "url": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
-        "domain": "data.gov.in",
-        "authority": "GOVERNMENT",
-        "snippet": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top quartile at ₹11.5L.",
-        "reliabilityScore": 96
+        "careerGoal": "Senior Fullstack Engineer within 2 years",
+        "customFields": {
+          "currentRole": "Junior Software Engineer",
+          "currentSalary": 5.5,
+          "experienceYears": 2.5,
+          "currentLocation": "Coimbatore",
+          "careerGoal": "Senior Fullstack Engineer within 2 years",
+          "offeredRole": "Software Developer",
+          "offeredSalary": 8,
+          "offeredLocation": "Chennai (OMR Corridor)",
+          "workMode": "hybrid",
+          "commuteMinutes": 45,
+          "benefits": "Standard medical cover, up to 10% variable bonus"
+        }
       },
-      {
-        "title": "AmbitionBox & Glassdoor Chennai IT Compensation Index",
-        "url": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
-        "domain": "ambitionbox.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
-        "reliabilityScore": 91
+      "userPriorities": {
+        "careerGrowth": 30,
+        "salary": 25,
+        "stability": 15,
+        "workLifeBalance": 15,
+        "locationAndCommute": 15,
+        "learningAndCulture": 10
       },
-      {
-        "title": "Chennai Urban Transport & Living Cost Index (CMDA & Numbeo)",
-        "url": "https://www.numbeo.com/cost-of-living/in/Chennai",
-        "domain": "numbeo.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single person: ₹23,500. Transit: Metro + MRTS coverage expanding along Phase 2.",
-        "reliabilityScore": 89
-      },
-      {
-        "title": "Tamil Nadu Urban Infrastructure Living Index",
-        "url": "https://www.cmdachennai.gov.in/infrastructure-metrics",
-        "domain": "cmdachennai.gov.in",
-        "authority": "GOVERNMENT",
-        "snippet": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
-        "reliabilityScore": 94
-      },
-      {
-        "title": "Industry Hiring Outlook & Career Mobility: Should I start this B2B SaaS venture?",
-        "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "domain": "nasscom.in",
-        "authority": "OFFICIAL_EMPLOYER",
-        "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack specialties leading mobility.",
-        "reliabilityScore": 93
-      }
-    ]
-  },
-  {
-    "id": "dec-1790933525553",
-    "createdAt": "2026-10-02T09:32:05.553Z",
-    "title": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
-    "category": "relocation",
-    "score": 83,
-    "verdict": "STRONG YES",
-    "confidence": "LOW",
-    "confidenceScore": 50,
-    "confidenceReasons": [
-      "Several key compensation or lifestyle inputs were left unstated",
-      "Cross-referenced with official state wage data and verified market indices",
-      "2 unknown variables remain (e.g. bonus realization rate, team runway)"
-    ],
-    "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 83/100 (STRONG YES) with LOW Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
-    "whyRecommended": [
-      "Net compensation progression is favorable (+53% hike), placing you above the median benchmark for Chennai tech roles.",
-      "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
-      "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
-    ],
-    "biggestAdvantages": [
-      "Higher Net Income: +₹33000.0 LPA increase boosts annual savings capacity.",
-      "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
-      "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
-    ],
-    "biggestRisks": [
-      "Commute Overhead: 25 minutes each way will consume ~7.5 hours weekly.",
-      "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
-      "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
-    ],
-    "factors": [
-      {
-        "id": "growth",
-        "name": "Career Growth",
-        "category": "Professional",
-        "weight": 25,
-        "rawScore": 87,
-        "weightedContribution": 21.8,
-        "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
-      },
-      {
-        "id": "salary",
-        "name": "Compensation & Financial Net",
-        "category": "Financial",
-        "weight": 35,
-        "rawScore": 88,
-        "weightedContribution": 30.8,
-        "explanation": "₹95000 LPA represents a 53% hike over current ₹62000 LPA base, placing within the 68th percentile for Chennai tech."
-      },
-      {
-        "id": "stability",
-        "name": "Market & Role Stability",
-        "category": "Risk",
-        "weight": 20,
-        "rawScore": 82,
-        "weightedContribution": 16.4,
-        "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
-      },
-      {
-        "id": "wlb",
-        "name": "Work-Life Balance",
-        "category": "Lifestyle",
-        "weight": 20,
-        "rawScore": 72,
-        "weightedContribution": 14.4,
-        "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
-      },
-      {
-        "id": "location",
-        "name": "Location & Commute Friction",
-        "category": "Environment",
-        "weight": 0,
-        "rawScore": 90,
-        "weightedContribution": 0,
-        "explanation": "25 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
-      },
-      {
-        "id": "culture",
-        "name": "Learning & Culture",
-        "category": "Growth",
-        "weight": 0,
-        "rawScore": 84,
-        "weightedContribution": 0,
-        "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-user-salary",
-        "statement": "Offered base compensation is ₹95000 LPA in Dubai, UAE.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Provided directly by the candidate in decision setup."
-      },
-      {
-        "id": "ev-user-current-salary",
-        "statement": "Current baseline salary is ₹62000 LPA.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Self-reported by user for accurate delta calculation."
-      },
-      {
-        "id": "ev-user-commute",
-        "statement": "Expected one-way commute duration: 25 minutes (hybrid mode).",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "medium",
-        "rationale": "User estimate based on proposed office address and residence."
-      },
-      {
-        "id": "ev-src-0",
-        "statement": "Dubai DIFC & Internet City Tech Lead median base: 35,000 - 45,000 AED/month (approx £90,000 - £115,000 tax-free equivalent) with housing allowance.",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: mohre.gov.ae",
-        "sourceUrl": "https://www.mohre.gov.ae/en/data-library/tech-salaries-dubai.aspx",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 98% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-1",
-        "statement": "Dubai Marina/Downtown 1-bed rental averages 85,000 - 110,000 AED/year. Zero income tax regime balances higher private healthcare and schooling premium...",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: dsc.gov.ae",
-        "sourceUrl": "https://www.dsc.gov.ae/en-gb/Themes/Prices/Living-Cost-Dubai",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 97% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-2",
-        "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in dubai, uae, with cloud and fullstack specialties lea...",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: nasscom.in",
-        "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-est-hike",
-        "statement": "Net compensation progression is +53% above previous baseline.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "high",
-        "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
-      },
-      {
-        "id": "ev-est-savings",
-        "statement": "Estimated annual investable surplus: ₹30400L based on Chennai urban median living expenses.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "medium",
-        "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
-      },
-      {
-        "id": "ev-unk-bonus",
-        "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
-      },
-      {
-        "id": "ev-unk-health",
-        "statement": "Detailed company runway / department growth rate and layoff resilience history.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Private financial records are not publicly indexed for unlisted division."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 91,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Performance appraisal yields top-tier 15% increment in month 12",
-          "Metro corridor expansion shortens commute by 20 minutes",
-          "Rapid promotion path into Tech Lead responsibility"
-        ],
-        "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 83,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Base compensation at ₹95000 LPA as formalized",
-          "25 mins daily commute on hybrid schedule",
-          "Standard peer learning and steady 10-12% market increments"
-        ],
-        "summary": "Solid professional advancement with favorable net financial surplus."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 64,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "Variable bonus component fails to pay out due to company division targets",
-          "Heavy peak-hour traffic extends commute to 80+ minutes daily",
-          "Legacy project maintenance exceeds planned modern architecture exposure"
-        ],
-        "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-salary-drop",
-        "variable": "Offered Compensation Floor",
-        "baselineValue": "₹95000 LPA",
-        "thresholdCondition": "Salary drops below ₹7.2 LPA",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 57,
-        "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-commute-spike",
-        "variable": "Commute Time Limit",
-        "baselineValue": "25 mins",
-        "thresholdCondition": "Commute exceeds 85 mins (one-way)",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 58,
-        "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-remote-shift",
-        "variable": "Remote Flexibility",
-        "baselineValue": "hybrid",
-        "thresholdCondition": "Full Remote work authorized",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 86,
-        "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
-        "sensitivity": "MEDIUM"
-      },
-      {
-        "id": "sens-equity-grant",
-        "variable": "Retention Bonus / ESOP",
-        "baselineValue": "Standard",
-        "thresholdCondition": "₹1.5L retention bonus or ESOP added",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 84,
-        "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
-        "sensitivity": "MEDIUM"
-      }
-    ],
-    "comparison": {
-      "optionAName": "Software Engineer (Chennai ₹95000L)",
-      "optionBName": "Current Role (Baseline ₹62000L)",
-      "optionAScore": 83,
-      "optionBScore": 61,
-      "tradeoffSummary": "Option A delivers a +53% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
-      "factors": [
+      "sources": [
         {
-          "name": "Annual Compensation",
-          "scoreA": 82,
-          "scoreB": 55,
-          "unit": "LPA",
-          "valueA": "₹95000L",
-          "valueB": "₹62000L"
+          "title": "Chennai Software Engineer Salary Report 2025-2026",
+          "url": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
+          "domain": "data.gov.in",
+          "authority": "GOVERNMENT",
+          "snippet": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top quartile at ₹11.5L.",
+          "reliabilityScore": 96
         },
         {
-          "name": "Tech Stack Modernity",
-          "scoreA": 88,
-          "scoreB": 65,
-          "valueA": "Cloud / React / Node",
-          "valueB": "Legacy Frameworks"
+          "title": "AmbitionBox & Glassdoor Chennai IT Compensation Index",
+          "url": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
+          "domain": "ambitionbox.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
+          "reliabilityScore": 91
         },
         {
-          "name": "Commute & Freedom",
-          "scoreA": 68,
-          "scoreB": 85,
-          "valueA": "25 mins (Hybrid)",
-          "valueB": "20 mins / Flexible"
+          "title": "Chennai Urban Transport & Living Cost Index (CMDA & Numbeo)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Chennai",
+          "domain": "numbeo.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Average monthly cost of living without rent for a single person: ₹23,500. Transit: Metro + MRTS coverage expanding along Phase 2.",
+          "reliabilityScore": 89
         },
         {
-          "name": "Career Runway (2-Yr)",
-          "scoreA": 84,
-          "scoreB": 58,
-          "valueA": "High Growth Tier",
-          "valueB": "Plateauing"
+          "title": "Tamil Nadu Urban Infrastructure Living Index",
+          "url": "https://www.cmdachennai.gov.in/infrastructure-metrics",
+          "domain": "cmdachennai.gov.in",
+          "authority": "GOVERNMENT",
+          "snippet": "Chennai holds 22% lower living expenses compared to Bengaluru and 28% lower than Mumbai, with high water & power reliability in primary tech zones.",
+          "reliabilityScore": 94
         },
         {
-          "name": "Role Stability",
-          "scoreA": 80,
-          "scoreB": 85,
-          "valueA": "Established Sector",
-          "valueB": "Known Environment"
+          "title": "Industry Hiring Outlook & Career Mobility: Should I start this B2B SaaS venture?",
+          "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "domain": "nasscom.in",
+          "authority": "OFFICIAL_EMPLOYER",
+          "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in chennai (omr corridor), with cloud and fullstack specialties leading mobility.",
+          "reliabilityScore": 93
         }
       ]
     },
-    "unknowns": [
-      "Exact variable bonus payout realization rate over the past 2 fiscal years.",
-      "Daily on-call incident frequency and weekend emergency support expectations.",
-      "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
+    {
+      "id": "dec-1790933525553",
+      "createdAt": "2026-10-02T09:32:05.553Z",
+      "title": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
       "category": "relocation",
-      "currentLocation": "London, UK",
-      "currentSalary": 62000,
-      "offeredLocation": "Dubai, UAE",
-      "offeredSalary": 95000,
-      "workMode": "hybrid",
-      "commuteMinutes": 25
-    },
-    "userPriorities": {
-      "careerGrowth": 25,
-      "salary": 35,
-      "stability": 20,
-      "workLifeBalance": 20,
-      "locationAndCommute": 0,
-      "learningAndCulture": 0
-    },
-    "sources": [
-      {
-        "title": "UAE Ministry of Human Resources & Emiratisation Tech Wage Index",
-        "url": "https://www.mohre.gov.ae/en/data-library/tech-salaries-dubai.aspx",
-        "domain": "mohre.gov.ae",
-        "authority": "GOVERNMENT",
-        "snippet": "Dubai DIFC & Internet City Tech Lead median base: 35,000 - 45,000 AED/month (approx £90,000 - £115,000 tax-free equivalent) with housing allowance.",
-        "reliabilityScore": 98
-      },
-      {
-        "title": "Dubai Statistics Center: Expatriate Living & Housing Index",
-        "url": "https://www.dsc.gov.ae/en-gb/Themes/Prices/Living-Cost-Dubai",
-        "domain": "dsc.gov.ae",
-        "authority": "GOVERNMENT",
-        "snippet": "Dubai Marina/Downtown 1-bed rental averages 85,000 - 110,000 AED/year. Zero income tax regime balances higher private healthcare and schooling premiums.",
-        "reliabilityScore": 97
-      },
-      {
-        "title": "Industry Hiring Outlook & Career Mobility: Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
-        "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "domain": "nasscom.in",
-        "authority": "OFFICIAL_EMPLOYER",
-        "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in dubai, uae, with cloud and fullstack specialties leading mobility.",
-        "reliabilityScore": 93
-      }
-    ]
-  },
-  {
-    "id": "dec-1790932979734",
-    "createdAt": "2026-10-02T09:22:59.734Z",
-    "title": "Should I accept the Senior Lead role in Bengaluru?",
-    "category": "career",
-    "score": 84,
-    "verdict": "STRONG YES",
-    "confidence": "LOW",
-    "confidenceScore": 50,
-    "confidenceReasons": [
-      "Several key compensation or lifestyle inputs were left unstated",
-      "Cross-referenced with official state wage data and verified market indices",
-      "2 unknown variables remain (e.g. bonus realization rate, team runway)"
-    ],
-    "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 84/100 (STRONG YES) with LOW Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
-    "whyRecommended": [
-      "Net compensation progression is favorable (+50% hike), placing you above the median benchmark for Chennai tech roles.",
-      "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
-      "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
-    ],
-    "biggestAdvantages": [
-      "Higher Net Income: +₹6.0 LPA increase boosts annual savings capacity.",
-      "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
-      "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
-    ],
-    "biggestRisks": [
-      "Commute Overhead: 30 minutes each way will consume ~7.5 hours weekly.",
-      "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
-      "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
-    ],
-    "factors": [
-      {
-        "id": "growth",
-        "name": "Career Growth",
-        "category": "Professional",
-        "weight": 32,
-        "rawScore": 87,
-        "weightedContribution": 27.8,
-        "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
-      },
-      {
-        "id": "salary",
-        "name": "Compensation & Financial Net",
-        "category": "Financial",
-        "weight": 27,
-        "rawScore": 88,
-        "weightedContribution": 23.8,
-        "explanation": "₹18 LPA represents a 50% hike over current ₹12 LPA base, placing within the 68th percentile for Chennai tech."
-      },
-      {
-        "id": "stability",
-        "name": "Market & Role Stability",
-        "category": "Risk",
-        "weight": 14,
-        "rawScore": 82,
-        "weightedContribution": 11.5,
-        "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
-      },
-      {
-        "id": "wlb",
-        "name": "Work-Life Balance",
-        "category": "Lifestyle",
-        "weight": 9,
-        "rawScore": 72,
-        "weightedContribution": 6.5,
-        "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
-      },
-      {
-        "id": "location",
-        "name": "Location & Commute Friction",
-        "category": "Environment",
-        "weight": 9,
-        "rawScore": 75,
-        "weightedContribution": 6.8,
-        "explanation": "30 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
-      },
-      {
-        "id": "culture",
-        "name": "Learning & Culture",
-        "category": "Growth",
-        "weight": 9,
-        "rawScore": 84,
-        "weightedContribution": 7.6,
-        "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-user-salary",
-        "statement": "Offered base compensation is ₹18 LPA in Bengaluru.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Provided directly by the candidate in decision setup."
-      },
-      {
-        "id": "ev-user-current-salary",
-        "statement": "Current baseline salary is ₹12 LPA.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Self-reported by user for accurate delta calculation."
-      },
-      {
-        "id": "ev-user-commute",
-        "statement": "Expected one-way commute duration: 30 minutes (hybrid mode).",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "medium",
-        "rationale": "User estimate based on proposed office address and residence."
-      },
-      {
-        "id": "ev-src-0",
-        "statement": "Median entry-to-mid career compensation in urban IT clusters shows steady 8-12% annual increments in high-demand software engineering tracks.",
-        "type": "VERIFIED",
-        "sourceName": "Gov Registry: ncs.gov.in",
-        "sourceUrl": "https://www.ncs.gov.in/reports/it-sector-wage-distribution",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 92% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-1",
-        "statement": "Standard metropolitan living index shows food and utility costs 15% lower in secondary tech clusters compared to Tier-1 capitals.",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: numbeo.com",
-        "sourceUrl": "https://www.numbeo.com/cost-of-living",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 86% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-src-2",
-        "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in bengaluru, with cloud and fullstack specialties lead...",
-        "type": "VERIFIED",
-        "sourceName": "Market Index: nasscom.in",
-        "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "confidenceImpact": "high",
-        "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-est-hike",
-        "statement": "Net compensation progression is +50% above previous baseline.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "high",
-        "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
-      },
-      {
-        "id": "ev-est-savings",
-        "statement": "Estimated annual investable surplus: ₹6L based on Chennai urban median living expenses.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "medium",
-        "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
-      },
-      {
-        "id": "ev-unk-bonus",
-        "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
-      },
-      {
-        "id": "ev-unk-health",
-        "statement": "Detailed company runway / department growth rate and layoff resilience history.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Private financial records are not publicly indexed for unlisted division."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 92,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Performance appraisal yields top-tier 15% increment in month 12",
-          "Metro corridor expansion shortens commute by 20 minutes",
-          "Rapid promotion path into Tech Lead responsibility"
-        ],
-        "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 84,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Base compensation at ₹18 LPA as formalized",
-          "30 mins daily commute on hybrid schedule",
-          "Standard peer learning and steady 10-12% market increments"
-        ],
-        "summary": "Solid professional advancement with favorable net financial surplus."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 65,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "Variable bonus component fails to pay out due to company division targets",
-          "Heavy peak-hour traffic extends commute to 80+ minutes daily",
-          "Legacy project maintenance exceeds planned modern architecture exposure"
-        ],
-        "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-salary-drop",
-        "variable": "Offered Compensation Floor",
-        "baselineValue": "₹18 LPA",
-        "thresholdCondition": "Salary drops below ₹7.2 LPA",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 57,
-        "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-commute-spike",
-        "variable": "Commute Time Limit",
-        "baselineValue": "30 mins",
-        "thresholdCondition": "Commute exceeds 85 mins (one-way)",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 58,
-        "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-remote-shift",
-        "variable": "Remote Flexibility",
-        "baselineValue": "hybrid",
-        "thresholdCondition": "Full Remote work authorized",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 86,
-        "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
-        "sensitivity": "MEDIUM"
-      },
-      {
-        "id": "sens-equity-grant",
-        "variable": "Retention Bonus / ESOP",
-        "baselineValue": "Standard",
-        "thresholdCondition": "₹1.5L retention bonus or ESOP added",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 84,
-        "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
-        "sensitivity": "MEDIUM"
-      }
-    ],
-    "comparison": {
-      "optionAName": "Software Engineer (Chennai ₹18L)",
-      "optionBName": "Current Role (Baseline ₹12L)",
-      "optionAScore": 84,
-      "optionBScore": 61,
-      "tradeoffSummary": "Option A delivers a +50% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
+      "score": 83,
+      "verdict": "STRONG YES",
+      "confidence": "LOW",
+      "confidenceScore": 50,
+      "confidenceReasons": [
+        "Several key compensation or lifestyle inputs were left unstated",
+        "Cross-referenced with official state wage data and verified market indices",
+        "2 unknown variables remain (e.g. bonus realization rate, team runway)"
+      ],
+      "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 83/100 (STRONG YES) with LOW Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
+      "whyRecommended": [
+        "Net compensation progression is favorable (+53% hike), placing you above the median benchmark for Chennai tech roles.",
+        "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
+        "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
+      ],
+      "biggestAdvantages": [
+        "Higher Net Income: +₹33000.0 LPA increase boosts annual savings capacity.",
+        "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
+        "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
+      ],
+      "biggestRisks": [
+        "Commute Overhead: 25 minutes each way will consume ~7.5 hours weekly.",
+        "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
+        "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
+      ],
       "factors": [
         {
-          "name": "Annual Compensation",
-          "scoreA": 82,
-          "scoreB": 55,
-          "unit": "LPA",
-          "valueA": "₹18L",
-          "valueB": "₹12L"
+          "id": "growth",
+          "name": "Career Growth",
+          "category": "Professional",
+          "weight": 25,
+          "rawScore": 87,
+          "weightedContribution": 21.8,
+          "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
         },
         {
-          "name": "Tech Stack Modernity",
-          "scoreA": 88,
-          "scoreB": 65,
-          "valueA": "Cloud / React / Node",
-          "valueB": "Legacy Frameworks"
+          "id": "salary",
+          "name": "Compensation & Financial Net",
+          "category": "Financial",
+          "weight": 35,
+          "rawScore": 88,
+          "weightedContribution": 30.8,
+          "explanation": "₹95000 LPA represents a 53% hike over current ₹62000 LPA base, placing within the 68th percentile for Chennai tech."
         },
         {
-          "name": "Commute & Freedom",
-          "scoreA": 68,
-          "scoreB": 85,
-          "valueA": "30 mins (Hybrid)",
-          "valueB": "20 mins / Flexible"
+          "id": "stability",
+          "name": "Market & Role Stability",
+          "category": "Risk",
+          "weight": 20,
+          "rawScore": 82,
+          "weightedContribution": 16.4,
+          "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
         },
         {
-          "name": "Career Runway (2-Yr)",
-          "scoreA": 84,
-          "scoreB": 58,
-          "valueA": "High Growth Tier",
-          "valueB": "Plateauing"
+          "id": "wlb",
+          "name": "Work-Life Balance",
+          "category": "Lifestyle",
+          "weight": 20,
+          "rawScore": 72,
+          "weightedContribution": 14.4,
+          "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
         },
         {
-          "name": "Role Stability",
-          "scoreA": 80,
-          "scoreB": 85,
-          "valueA": "Established Sector",
-          "valueB": "Known Environment"
+          "id": "location",
+          "name": "Location & Commute Friction",
+          "category": "Environment",
+          "weight": 0,
+          "rawScore": 90,
+          "weightedContribution": 0,
+          "explanation": "25 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
+        },
+        {
+          "id": "culture",
+          "name": "Learning & Culture",
+          "category": "Growth",
+          "weight": 0,
+          "rawScore": 84,
+          "weightedContribution": 0,
+          "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-user-salary",
+          "statement": "Offered base compensation is ₹95000 LPA in Dubai, UAE.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Provided directly by the candidate in decision setup."
+        },
+        {
+          "id": "ev-user-current-salary",
+          "statement": "Current baseline salary is ₹62000 LPA.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Self-reported by user for accurate delta calculation."
+        },
+        {
+          "id": "ev-user-commute",
+          "statement": "Expected one-way commute duration: 25 minutes (hybrid mode).",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "medium",
+          "rationale": "User estimate based on proposed office address and residence."
+        },
+        {
+          "id": "ev-src-0",
+          "statement": "Dubai DIFC & Internet City Tech Lead median base: 35,000 - 45,000 AED/month (approx £90,000 - £115,000 tax-free equivalent) with housing allowance.",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: mohre.gov.ae",
+          "sourceUrl": "https://www.mohre.gov.ae/en/data-library/tech-salaries-dubai.aspx",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 98% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-1",
+          "statement": "Dubai Marina/Downtown 1-bed rental averages 85,000 - 110,000 AED/year. Zero income tax regime balances higher private healthcare and schooling premium...",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: dsc.gov.ae",
+          "sourceUrl": "https://www.dsc.gov.ae/en-gb/Themes/Prices/Living-Cost-Dubai",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 97% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-2",
+          "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in dubai, uae, with cloud and fullstack specialties lea...",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: nasscom.in",
+          "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-est-hike",
+          "statement": "Net compensation progression is +53% above previous baseline.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "high",
+          "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
+        },
+        {
+          "id": "ev-est-savings",
+          "statement": "Estimated annual investable surplus: ₹30400L based on Chennai urban median living expenses.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "medium",
+          "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
+        },
+        {
+          "id": "ev-unk-bonus",
+          "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
+        },
+        {
+          "id": "ev-unk-health",
+          "statement": "Detailed company runway / department growth rate and layoff resilience history.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Private financial records are not publicly indexed for unlisted division."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 91,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Performance appraisal yields top-tier 15% increment in month 12",
+            "Metro corridor expansion shortens commute by 20 minutes",
+            "Rapid promotion path into Tech Lead responsibility"
+          ],
+          "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 83,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Base compensation at ₹95000 LPA as formalized",
+            "25 mins daily commute on hybrid schedule",
+            "Standard peer learning and steady 10-12% market increments"
+          ],
+          "summary": "Solid professional advancement with favorable net financial surplus."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 64,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "Variable bonus component fails to pay out due to company division targets",
+            "Heavy peak-hour traffic extends commute to 80+ minutes daily",
+            "Legacy project maintenance exceeds planned modern architecture exposure"
+          ],
+          "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-salary-drop",
+          "variable": "Offered Compensation Floor",
+          "baselineValue": "₹95000 LPA",
+          "thresholdCondition": "Salary drops below ₹7.2 LPA",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 57,
+          "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-commute-spike",
+          "variable": "Commute Time Limit",
+          "baselineValue": "25 mins",
+          "thresholdCondition": "Commute exceeds 85 mins (one-way)",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 58,
+          "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-remote-shift",
+          "variable": "Remote Flexibility",
+          "baselineValue": "hybrid",
+          "thresholdCondition": "Full Remote work authorized",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 86,
+          "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
+          "sensitivity": "MEDIUM"
+        },
+        {
+          "id": "sens-equity-grant",
+          "variable": "Retention Bonus / ESOP",
+          "baselineValue": "Standard",
+          "thresholdCondition": "₹1.5L retention bonus or ESOP added",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 84,
+          "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
+          "sensitivity": "MEDIUM"
+        }
+      ],
+      "comparison": {
+        "optionAName": "Software Engineer (Chennai ₹95000L)",
+        "optionBName": "Current Role (Baseline ₹62000L)",
+        "optionAScore": 83,
+        "optionBScore": 61,
+        "tradeoffSummary": "Option A delivers a +53% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
+        "factors": [
+          {
+            "name": "Annual Compensation",
+            "scoreA": 82,
+            "scoreB": 55,
+            "unit": "LPA",
+            "valueA": "₹95000L",
+            "valueB": "₹62000L"
+          },
+          {
+            "name": "Tech Stack Modernity",
+            "scoreA": 88,
+            "scoreB": 65,
+            "valueA": "Cloud / React / Node",
+            "valueB": "Legacy Frameworks"
+          },
+          {
+            "name": "Commute & Freedom",
+            "scoreA": 68,
+            "scoreB": 85,
+            "valueA": "25 mins (Hybrid)",
+            "valueB": "20 mins / Flexible"
+          },
+          {
+            "name": "Career Runway (2-Yr)",
+            "scoreA": 84,
+            "scoreB": 58,
+            "valueA": "High Growth Tier",
+            "valueB": "Plateauing"
+          },
+          {
+            "name": "Role Stability",
+            "scoreA": 80,
+            "scoreB": 85,
+            "valueA": "Established Sector",
+            "valueB": "Known Environment"
+          }
+        ]
+      },
+      "unknowns": [
+        "Exact variable bonus payout realization rate over the past 2 fiscal years.",
+        "Daily on-call incident frequency and weekend emergency support expectations.",
+        "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
+        "category": "relocation",
+        "currentLocation": "London, UK",
+        "currentSalary": 62000,
+        "offeredLocation": "Dubai, UAE",
+        "offeredSalary": 95000,
+        "workMode": "hybrid",
+        "commuteMinutes": 25
+      },
+      "userPriorities": {
+        "careerGrowth": 25,
+        "salary": 35,
+        "stability": 20,
+        "workLifeBalance": 20,
+        "locationAndCommute": 0,
+        "learningAndCulture": 0
+      },
+      "sources": [
+        {
+          "title": "UAE Ministry of Human Resources & Emiratisation Tech Wage Index",
+          "url": "https://www.mohre.gov.ae/en/data-library/tech-salaries-dubai.aspx",
+          "domain": "mohre.gov.ae",
+          "authority": "GOVERNMENT",
+          "snippet": "Dubai DIFC & Internet City Tech Lead median base: 35,000 - 45,000 AED/month (approx £90,000 - £115,000 tax-free equivalent) with housing allowance.",
+          "reliabilityScore": 98
+        },
+        {
+          "title": "Dubai Statistics Center: Expatriate Living & Housing Index",
+          "url": "https://www.dsc.gov.ae/en-gb/Themes/Prices/Living-Cost-Dubai",
+          "domain": "dsc.gov.ae",
+          "authority": "GOVERNMENT",
+          "snippet": "Dubai Marina/Downtown 1-bed rental averages 85,000 - 110,000 AED/year. Zero income tax regime balances higher private healthcare and schooling premiums.",
+          "reliabilityScore": 97
+        },
+        {
+          "title": "Industry Hiring Outlook & Career Mobility: Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
+          "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "domain": "nasscom.in",
+          "authority": "OFFICIAL_EMPLOYER",
+          "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in dubai, uae, with cloud and fullstack specialties leading mobility.",
+          "reliabilityScore": 93
         }
       ]
     },
-    "unknowns": [
-      "Exact variable bonus payout realization rate over the past 2 fiscal years.",
-      "Daily on-call incident frequency and weekend emergency support expectations.",
-      "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I accept the Senior Lead role in Bengaluru?",
+    {
+      "id": "dec-1790932979734",
+      "createdAt": "2026-10-02T09:22:59.734Z",
+      "title": "Should I accept the Senior Lead role in Bengaluru?",
       "category": "career",
-      "currentSalary": 12,
-      "offeredSalary": 18,
-      "offeredLocation": "Bengaluru",
-      "workMode": "hybrid",
-      "commuteMinutes": 30
-    },
-    "userPriorities": {
-      "careerGrowth": 35,
-      "salary": 30,
-      "stability": 15,
-      "workLifeBalance": 10,
-      "locationAndCommute": 10,
-      "learningAndCulture": 10
-    },
-    "sources": [
-      {
-        "title": "National Career Service Official Labor Market Benchmark",
-        "url": "https://www.ncs.gov.in/reports/it-sector-wage-distribution",
-        "domain": "ncs.gov.in",
-        "authority": "GOVERNMENT",
-        "snippet": "Median entry-to-mid career compensation in urban IT clusters shows steady 8-12% annual increments in high-demand software engineering tracks.",
-        "reliabilityScore": 92
-      },
-      {
-        "title": "Global Urban Living Cost Database",
-        "url": "https://www.numbeo.com/cost-of-living",
-        "domain": "numbeo.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Standard metropolitan living index shows food and utility costs 15% lower in secondary tech clusters compared to Tier-1 capitals.",
-        "reliabilityScore": 86
-      },
-      {
-        "title": "Industry Hiring Outlook & Career Mobility: Should I accept the Senior Lead role in Bengaluru?",
-        "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
-        "domain": "nasscom.in",
-        "authority": "OFFICIAL_EMPLOYER",
-        "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in bengaluru, with cloud and fullstack specialties leading mobility.",
-        "reliabilityScore": 93
-      }
-    ]
-  },
-  {
-    "id": "dec-chennai-job",
-    "createdAt": "2026-10-02T10:30:00.000Z",
-    "title": "Should I accept this ₹8 LPA software developer job in Chennai?",
-    "category": "career",
-    "score": 78,
-    "verdict": "LEAN YES",
-    "confidence": "MEDIUM",
-    "confidenceScore": 74,
-    "confidenceReasons": [
-      "High candidate context completeness (85% parameters verified)",
-      "Cross-referenced with official state wage data and verified market indices",
-      "2 unknown variables remain regarding unwritten bonus realization rate"
-    ],
-    "summary": "Based on your prioritized weighting of Career Growth (30%), Salary (25%), and Stability (15%), FEZI evaluates this offer at 78/100 (LEAN YES) with MEDIUM Confidence. The 45% compensation leap and cloud engineering experience outweigh commute friction, provided base salary remains ≥ ₹7.2 LPA.",
-    "whyRecommended": [
-      "Career growth is favorable: Upward mobility into modern production microservices.",
-      "Financial outcome is positive: Net +45% hike over current baseline with positive investable surplus in Chennai.",
-      "Opportunity aligns with candidate long-term goal of Senior Engineer trajectory within 24 months."
-    ],
-    "biggestAdvantages": [
-      "Higher Income: +₹2.5 LPA incremental increase boosts annual investable capacity by ~₹1.8L.",
-      "Better Career Growth: Direct exposure to distributed systems and CI/CD pipelines.",
-      "Stronger Learning Opportunity: Dedicated team lead mentorship and modern cloud stack."
-    ],
-    "biggestRisks": [
-      "Commute Friction: 45-minute one-way transit along OMR IT corridor during peak hours.",
-      "Relocation/Setup Expense: Initial deposit and transition costs in first quarter.",
-      "Uncertain Bonus Realization: Historical percentage of variable pay was not confirmed in writing."
-    ],
-    "factors": [
-      {
-        "id": "growth",
-        "name": "Career Growth",
-        "category": "Professional",
-        "weight": 30,
-        "rawScore": 85,
-        "weightedContribution": 25.5,
-        "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
-      },
-      {
-        "id": "salary",
-        "name": "Salary & Compensation",
-        "category": "Financial",
-        "weight": 25,
-        "rawScore": 78,
-        "weightedContribution": 19.5,
-        "explanation": "₹8.0 LPA represents a 45% hike over current ₹5.5 LPA base, sitting in the 68th percentile for Chennai developers."
-      },
-      {
-        "id": "stability",
-        "name": "Company Stability",
-        "category": "Risk",
-        "weight": 15,
-        "rawScore": 82,
-        "weightedContribution": 12.3,
-        "explanation": "Established sector presence with multi-year enterprise client contracts and low layoff volatility."
-      },
-      {
-        "id": "wlb",
-        "name": "Work-Life Balance",
-        "category": "Lifestyle",
-        "weight": 15,
-        "rawScore": 65,
-        "weightedContribution": 9.75,
-        "explanation": "Hybrid schedule (3 days office, 2 days remote) demands typical 45-50 hrs/week with weekend on-call rotation."
-      },
-      {
-        "id": "location",
-        "name": "Location & Commute",
-        "category": "Environment",
-        "weight": 15,
-        "rawScore": 70,
-        "weightedContribution": 10.5,
-        "explanation": "45-minute one-way transit time along Chennai OMR corridor creates moderate daily commute overhead."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-1",
-        "statement": "Offered base compensation is ₹8.0 LPA in Chennai with hybrid work arrangement.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Direct candidate input from written offer letter."
-      },
-      {
-        "id": "ev-2",
-        "statement": "Current compensation baseline is ₹5.5 LPA in Coimbatore / Remote.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Self-reported by user for accurate baseline delta modeling."
-      },
-      {
-        "id": "ev-3",
-        "statement": "Tamil Nadu Electronics & Software Wage Index: 2-4 YOE Software Engineer median package in Chennai OMR/Porur is ₹6.8L - ₹9.2L p.a.",
-        "type": "VERIFIED",
-        "sourceName": "Tamil Nadu Gov IT Wage Index (data.gov.in)",
-        "sourceUrl": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
-        "confidenceImpact": "high",
-        "rationale": "Official government labor statistical dataset with 96% reliability score.",
-        "dateVerified": "2025-2026 Index"
-      },
-      {
-        "id": "ev-4",
-        "statement": "Chennai 1BHK rent in tech corridors (Perungudi/OMR): ₹14,000 - ₹20,000/mo. Living expenses are 22% lower than Bengaluru.",
-        "type": "VERIFIED",
-        "sourceName": "CMDA Urban Housing & Numbeo Benchmark",
-        "sourceUrl": "https://www.numbeo.com/cost-of-living/in/Chennai",
-        "confidenceImpact": "high",
-        "rationale": "Verified civic and metropolitan living cost database.",
-        "dateVerified": "Jan 2026"
-      },
-      {
-        "id": "ev-5",
-        "statement": "Calculated annual investable surplus increases by ₹1.82L even after factoring housing rent and transit.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "medium",
-        "rationale": "FEZI mathematical delta model after adjusting for tax slabs and city living expenses."
-      },
-      {
-        "id": "ev-6",
-        "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Offer letter mentions up to 10% variable pay, but historical team payout percentage was not stated."
-      },
-      {
-        "id": "ev-7",
-        "statement": "Department churn rate and long-term project pipeline stability over the next 24 months.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "low",
-        "rationale": "Private mid-tier firm unlisted metrics."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 86,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Year-1 performance appraisal delivers top-tier 15% increment",
-          "Metro Phase 2 corridor completion shortens commute by 20 minutes",
-          "Rapid promotion track into Module Lead responsibility"
-        ],
-        "summary": "Compounding upside if technical leadership opportunity and appraisal targets are realized."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 78,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "Base compensation at ₹8.0 LPA as formalized in offer",
-          "45-minute daily commute on hybrid 3-day office schedule",
-          "Standard peer learning and steady 10-12% annual market progression"
-        ],
-        "summary": "Solid professional advancement with favorable net financial surplus."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 59,
-        "verdict": "NEUTRAL",
-        "assumptions": [
-          "Variable bonus component fails to pay out due to division targets",
-          "Peak-hour traffic bottlenecks extend commute to 75+ minutes each way",
-          "Legacy bug fixing exceeds promised modern architecture exposure"
-        ],
-        "summary": "Recommendation drops to NEUTRAL if commute friction escalates and bonus realization fails."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-1",
-        "variable": "Offered Compensation Floor",
-        "baselineValue": "₹8.0 LPA",
-        "thresholdCondition": "If offered salary falls below ₹7.2 LPA",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 57,
-        "explanation": "FEZI's recommendation changes from LEAN YES to NEUTRAL because the financial delta no longer covers relocation and commute friction.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-2",
-        "variable": "Commute Duration Ceiling",
-        "baselineValue": "45 mins",
-        "thresholdCondition": "If one-way commute exceeds 85 mins",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 58,
-        "explanation": "Transit friction above 85 minutes degrades lifestyle and wellbeing score, neutralising the financial advantage.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-3",
-        "variable": "Remote Flexibility",
-        "baselineValue": "Hybrid (3 days)",
-        "thresholdCondition": "If company allows 100% Remote",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 86,
-        "explanation": "Zero commute and zero relocation expenses elevates the recommendation to a definitive STRONG YES.",
-        "sensitivity": "MEDIUM"
-      },
-      {
-        "id": "sens-4",
-        "variable": "Joining Retention Bonus",
-        "baselineValue": "None",
-        "thresholdCondition": "If ₹1.5L upfront retention bonus is negotiated",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 83,
-        "explanation": "Covers all relocation and furnishing expenses immediately with zero payback risk after 12 months.",
-        "sensitivity": "MEDIUM"
-      }
-    ],
-    "comparison": {
-      "optionAName": "Chennai Software Developer Offer (₹8.0 LPA)",
-      "optionBName": "Current Baseline Role (₹5.5 LPA)",
-      "optionAScore": 78,
-      "optionBScore": 61,
-      "tradeoffSummary": "The Chennai offer yields a +45% compensation leap and modern microservice stack, offset by an extra 25 minutes of commute compared to your current routine.",
+      "score": 84,
+      "verdict": "STRONG YES",
+      "confidence": "LOW",
+      "confidenceScore": 50,
+      "confidenceReasons": [
+        "Several key compensation or lifestyle inputs were left unstated",
+        "Cross-referenced with official state wage data and verified market indices",
+        "2 unknown variables remain (e.g. bonus realization rate, team runway)"
+      ],
+      "summary": "Based on your prioritized weighting of Compensation (25%), Career Growth (30%), and Stability (15%), FEZI evaluates this decision at 84/100 (STRONG YES) with LOW Confidence. The compensation jump and career upside decisively outweigh commute overhead, provided the base salary remains at or above ₹7.2 LPA.",
+      "whyRecommended": [
+        "Net compensation progression is favorable (+50% hike), placing you above the median benchmark for Chennai tech roles.",
+        "Role offers high alignment with upward engineering mobility and production cloud systems experience.",
+        "City cost-of-living index confirms investable surplus increases substantially even after living expenses."
+      ],
+      "biggestAdvantages": [
+        "Higher Net Income: +₹6.0 LPA increase boosts annual savings capacity.",
+        "Career Growth Accelerator: Faster track to Senior / Lead responsibilities compared to current plateau.",
+        "Established Tech Ecosystem: Chennai OMR corridor offers high density of future engineering opportunities."
+      ],
+      "biggestRisks": [
+        "Commute Overhead: 30 minutes each way will consume ~7.5 hours weekly.",
+        "Relocation / Transit Setup Friction: Initial upfront deposit and transit cost before first payroll cycle.",
+        "Unverified Bonus Realization: Historical percentage of variable pay paid out was not verified in writing."
+      ],
       "factors": [
         {
-          "name": "Annual Compensation",
-          "scoreA": 78,
-          "scoreB": 55,
-          "unit": "LPA",
-          "valueA": "₹8.0L",
-          "valueB": "₹5.5L"
+          "id": "growth",
+          "name": "Career Growth",
+          "category": "Professional",
+          "weight": 32,
+          "rawScore": 87,
+          "weightedContribution": 27.8,
+          "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
         },
         {
-          "name": "Career Growth & Stack",
-          "scoreA": 85,
-          "scoreB": 62,
-          "valueA": "Cloud / React / Node",
-          "valueB": "Maintenance / Legacy"
+          "id": "salary",
+          "name": "Compensation & Financial Net",
+          "category": "Financial",
+          "weight": 27,
+          "rawScore": 88,
+          "weightedContribution": 23.8,
+          "explanation": "₹18 LPA represents a 50% hike over current ₹12 LPA base, placing within the 68th percentile for Chennai tech."
         },
         {
-          "name": "Commute & Freedom",
-          "scoreA": 70,
-          "scoreB": 88,
-          "valueA": "45 mins (Hybrid 3d)",
-          "valueB": "20 mins / Flexible"
+          "id": "stability",
+          "name": "Market & Role Stability",
+          "category": "Risk",
+          "weight": 14,
+          "rawScore": 82,
+          "weightedContribution": 11.5,
+          "explanation": "Established domain resilience with sustainable enterprise customer contracts and low layoff volatility."
         },
         {
+          "id": "wlb",
+          "name": "Work-Life Balance",
+          "category": "Lifestyle",
+          "weight": 9,
+          "rawScore": 72,
+          "weightedContribution": 6.5,
+          "explanation": "HYBRID cadence demands typical 45-50 hrs/week with standard on-call rotation."
+        },
+        {
+          "id": "location",
+          "name": "Location & Commute Friction",
+          "category": "Environment",
+          "weight": 9,
+          "rawScore": 75,
+          "weightedContribution": 6.8,
+          "explanation": "30 min one-way transit time along Chennai tech corridor (OMR / Porur) creates moderate daily friction."
+        },
+        {
+          "id": "culture",
+          "name": "Learning & Culture",
+          "category": "Growth",
+          "weight": 9,
+          "rawScore": 84,
+          "weightedContribution": 7.6,
+          "explanation": "Engineering team practices modern CI/CD, peer code reviews, and microservice infrastructure."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-user-salary",
+          "statement": "Offered base compensation is ₹18 LPA in Bengaluru.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Provided directly by the candidate in decision setup."
+        },
+        {
+          "id": "ev-user-current-salary",
+          "statement": "Current baseline salary is ₹12 LPA.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Self-reported by user for accurate delta calculation."
+        },
+        {
+          "id": "ev-user-commute",
+          "statement": "Expected one-way commute duration: 30 minutes (hybrid mode).",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "medium",
+          "rationale": "User estimate based on proposed office address and residence."
+        },
+        {
+          "id": "ev-src-0",
+          "statement": "Median entry-to-mid career compensation in urban IT clusters shows steady 8-12% annual increments in high-demand software engineering tracks.",
+          "type": "VERIFIED",
+          "sourceName": "Gov Registry: ncs.gov.in",
+          "sourceUrl": "https://www.ncs.gov.in/reports/it-sector-wage-distribution",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 92% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-1",
+          "statement": "Standard metropolitan living index shows food and utility costs 15% lower in secondary tech clusters compared to Tier-1 capitals.",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: numbeo.com",
+          "sourceUrl": "https://www.numbeo.com/cost-of-living",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 86% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-src-2",
+          "statement": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in bengaluru, with cloud and fullstack specialties lead...",
+          "type": "VERIFIED",
+          "sourceName": "Market Index: nasscom.in",
+          "sourceUrl": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "confidenceImpact": "high",
+          "rationale": "Cross-referenced against verified benchmark with 93% reliability index.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-est-hike",
+          "statement": "Net compensation progression is +50% above previous baseline.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "high",
+          "rationale": "FEZI mathematical delta model after adjusting for base salary jump."
+        },
+        {
+          "id": "ev-est-savings",
+          "statement": "Estimated annual investable surplus: ₹6L based on Chennai urban median living expenses.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "medium",
+          "rationale": "Modeled using Numbeo/CMDA single-earner cost index for tier-1 IT suburbs."
+        },
+        {
+          "id": "ev-unk-bonus",
+          "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Offer letter details on retention bonus vesting vs variable bonus were not provided."
+        },
+        {
+          "id": "ev-unk-health",
+          "statement": "Detailed company runway / department growth rate and layoff resilience history.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Private financial records are not publicly indexed for unlisted division."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 92,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Performance appraisal yields top-tier 15% increment in month 12",
+            "Metro corridor expansion shortens commute by 20 minutes",
+            "Rapid promotion path into Tech Lead responsibility"
+          ],
+          "summary": "Compounding upside if tech leadership opportunity and appraisal targets are realized."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 84,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Base compensation at ₹18 LPA as formalized",
+            "30 mins daily commute on hybrid schedule",
+            "Standard peer learning and steady 10-12% market increments"
+          ],
+          "summary": "Solid professional advancement with favorable net financial surplus."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 65,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "Variable bonus component fails to pay out due to company division targets",
+            "Heavy peak-hour traffic extends commute to 80+ minutes daily",
+            "Legacy project maintenance exceeds planned modern architecture exposure"
+          ],
+          "summary": "Recommendation drops sharply if commute friction increases and bonus realization fails."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-salary-drop",
+          "variable": "Offered Compensation Floor",
+          "baselineValue": "₹18 LPA",
+          "thresholdCondition": "Salary drops below ₹7.2 LPA",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 57,
+          "explanation": "If the base offer falls below ₹7.2 LPA, the financial delta does not compensate for the higher commute and relocation costs.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-commute-spike",
+          "variable": "Commute Time Limit",
+          "baselineValue": "30 mins",
+          "thresholdCondition": "Commute exceeds 85 mins (one-way)",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 58,
+          "explanation": "Daily transit over 85 minutes severely degrades the Work-Life Balance and Location factor scores.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-remote-shift",
+          "variable": "Remote Flexibility",
+          "baselineValue": "hybrid",
+          "thresholdCondition": "Full Remote work authorized",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 86,
+          "explanation": "Eliminating commute overhead entirely lifts the score into STRONG YES territory (86/100).",
+          "sensitivity": "MEDIUM"
+        },
+        {
+          "id": "sens-equity-grant",
+          "variable": "Retention Bonus / ESOP",
+          "baselineValue": "Standard",
+          "thresholdCondition": "₹1.5L retention bonus or ESOP added",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 84,
+          "explanation": "Guaranteed retention upside eliminates stability uncertainty and accelerates score to 84/100.",
+          "sensitivity": "MEDIUM"
+        }
+      ],
+      "comparison": {
+        "optionAName": "Software Engineer (Chennai ₹18L)",
+        "optionBName": "Current Role (Baseline ₹12L)",
+        "optionAScore": 84,
+        "optionBScore": 61,
+        "tradeoffSummary": "Option A delivers a +50% financial hike and higher technical upside, offset by slightly higher commute friction than your current baseline.",
+        "factors": [
+          {
+            "name": "Annual Compensation",
+            "scoreA": 82,
+            "scoreB": 55,
+            "unit": "LPA",
+            "valueA": "₹18L",
+            "valueB": "₹12L"
+          },
+          {
+            "name": "Tech Stack Modernity",
+            "scoreA": 88,
+            "scoreB": 65,
+            "valueA": "Cloud / React / Node",
+            "valueB": "Legacy Frameworks"
+          },
+          {
+            "name": "Commute & Freedom",
+            "scoreA": 68,
+            "scoreB": 85,
+            "valueA": "30 mins (Hybrid)",
+            "valueB": "20 mins / Flexible"
+          },
+          {
+            "name": "Career Runway (2-Yr)",
+            "scoreA": 84,
+            "scoreB": 58,
+            "valueA": "High Growth Tier",
+            "valueB": "Plateauing"
+          },
+          {
+            "name": "Role Stability",
+            "scoreA": 80,
+            "scoreB": 85,
+            "valueA": "Established Sector",
+            "valueB": "Known Environment"
+          }
+        ]
+      },
+      "unknowns": [
+        "Exact variable bonus payout realization rate over the past 2 fiscal years.",
+        "Daily on-call incident frequency and weekend emergency support expectations.",
+        "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I accept the Senior Lead role in Bengaluru?",
+        "category": "career",
+        "currentSalary": 12,
+        "offeredSalary": 18,
+        "offeredLocation": "Bengaluru",
+        "workMode": "hybrid",
+        "commuteMinutes": 30
+      },
+      "userPriorities": {
+        "careerGrowth": 35,
+        "salary": 30,
+        "stability": 15,
+        "workLifeBalance": 10,
+        "locationAndCommute": 10,
+        "learningAndCulture": 10
+      },
+      "sources": [
+        {
+          "title": "National Career Service Official Labor Market Benchmark",
+          "url": "https://www.ncs.gov.in/reports/it-sector-wage-distribution",
+          "domain": "ncs.gov.in",
+          "authority": "GOVERNMENT",
+          "snippet": "Median entry-to-mid career compensation in urban IT clusters shows steady 8-12% annual increments in high-demand software engineering tracks.",
+          "reliabilityScore": 92
+        },
+        {
+          "title": "Global Urban Living Cost Database",
+          "url": "https://www.numbeo.com/cost-of-living",
+          "domain": "numbeo.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Standard metropolitan living index shows food and utility costs 15% lower in secondary tech clusters compared to Tier-1 capitals.",
+          "reliabilityScore": 86
+        },
+        {
+          "title": "Industry Hiring Outlook & Career Mobility: Should I accept the Senior Lead role in Bengaluru?",
+          "url": "https://nasscom.in/knowledge-center/talent-demand-report-2025",
+          "domain": "nasscom.in",
+          "authority": "OFFICIAL_EMPLOYER",
+          "snippet": "NASSCOM Tech Talent Report indicates strong 14.2% YoY demand expansion for mid-level engineers in bengaluru, with cloud and fullstack specialties leading mobility.",
+          "reliabilityScore": 93
+        }
+      ]
+    },
+    {
+      "id": "dec-chennai-job",
+      "createdAt": "2026-10-02T10:30:00.000Z",
+      "title": "Should I accept this ₹8 LPA software developer job in Chennai?",
+      "category": "career",
+      "score": 78,
+      "verdict": "LEAN YES",
+      "confidence": "MEDIUM",
+      "confidenceScore": 74,
+      "confidenceReasons": [
+        "High candidate context completeness (85% parameters verified)",
+        "Cross-referenced with official state wage data and verified market indices",
+        "2 unknown variables remain regarding unwritten bonus realization rate"
+      ],
+      "summary": "Based on your prioritized weighting of Career Growth (30%), Salary (25%), and Stability (15%), FEZI evaluates this offer at 78/100 (LEAN YES) with MEDIUM Confidence. The 45% compensation leap and cloud engineering experience outweigh commute friction, provided base salary remains ≥ ₹7.2 LPA.",
+      "whyRecommended": [
+        "Career growth is favorable: Upward mobility into modern production microservices.",
+        "Financial outcome is positive: Net +45% hike over current baseline with positive investable surplus in Chennai.",
+        "Opportunity aligns with candidate long-term goal of Senior Engineer trajectory within 24 months."
+      ],
+      "biggestAdvantages": [
+        "Higher Income: +₹2.5 LPA incremental increase boosts annual investable capacity by ~₹1.8L.",
+        "Better Career Growth: Direct exposure to distributed systems and CI/CD pipelines.",
+        "Stronger Learning Opportunity: Dedicated team lead mentorship and modern cloud stack."
+      ],
+      "biggestRisks": [
+        "Commute Friction: 45-minute one-way transit along OMR IT corridor during peak hours.",
+        "Relocation/Setup Expense: Initial deposit and transition costs in first quarter.",
+        "Uncertain Bonus Realization: Historical percentage of variable pay was not confirmed in writing."
+      ],
+      "factors": [
+        {
+          "id": "growth",
+          "name": "Career Growth",
+          "category": "Professional",
+          "weight": 30,
+          "rawScore": 85,
+          "weightedContribution": 25.5,
+          "explanation": "Offers upward mobility into high-demand engineering responsibilities with modern production architecture."
+        },
+        {
+          "id": "salary",
+          "name": "Salary & Compensation",
+          "category": "Financial",
+          "weight": 25,
+          "rawScore": 78,
+          "weightedContribution": 19.5,
+          "explanation": "₹8.0 LPA represents a 45% hike over current ₹5.5 LPA base, sitting in the 68th percentile for Chennai developers."
+        },
+        {
+          "id": "stability",
           "name": "Company Stability",
-          "scoreA": 82,
-          "scoreB": 85,
-          "valueA": "Growing Mid-Tier",
-          "valueB": "Established Firm"
+          "category": "Risk",
+          "weight": 15,
+          "rawScore": 82,
+          "weightedContribution": 12.3,
+          "explanation": "Established sector presence with multi-year enterprise client contracts and low layoff volatility."
         },
         {
-          "name": "Learning Velocity",
-          "scoreA": 84,
-          "scoreB": 58,
-          "valueA": "Modern Microservices",
-          "valueB": "Monolith Support"
+          "id": "wlb",
+          "name": "Work-Life Balance",
+          "category": "Lifestyle",
+          "weight": 15,
+          "rawScore": 65,
+          "weightedContribution": 9.75,
+          "explanation": "Hybrid schedule (3 days office, 2 days remote) demands typical 45-50 hrs/week with weekend on-call rotation."
+        },
+        {
+          "id": "location",
+          "name": "Location & Commute",
+          "category": "Environment",
+          "weight": 15,
+          "rawScore": 70,
+          "weightedContribution": 10.5,
+          "explanation": "45-minute one-way transit time along Chennai OMR corridor creates moderate daily commute overhead."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "statement": "Offered base compensation is ₹8.0 LPA in Chennai with hybrid work arrangement.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Direct candidate input from written offer letter."
+        },
+        {
+          "id": "ev-2",
+          "statement": "Current compensation baseline is ₹5.5 LPA in Coimbatore / Remote.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Self-reported by user for accurate baseline delta modeling."
+        },
+        {
+          "id": "ev-3",
+          "statement": "Tamil Nadu Electronics & Software Wage Index: 2-4 YOE Software Engineer median package in Chennai OMR/Porur is ₹6.8L - ₹9.2L p.a.",
+          "type": "VERIFIED",
+          "sourceName": "Tamil Nadu Gov IT Wage Index (data.gov.in)",
+          "sourceUrl": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
+          "confidenceImpact": "high",
+          "rationale": "Official government labor statistical dataset with 96% reliability score.",
+          "dateVerified": "2025-2026 Index"
+        },
+        {
+          "id": "ev-4",
+          "statement": "Chennai 1BHK rent in tech corridors (Perungudi/OMR): ₹14,000 - ₹20,000/mo. Living expenses are 22% lower than Bengaluru.",
+          "type": "VERIFIED",
+          "sourceName": "CMDA Urban Housing & Numbeo Benchmark",
+          "sourceUrl": "https://www.numbeo.com/cost-of-living/in/Chennai",
+          "confidenceImpact": "high",
+          "rationale": "Verified civic and metropolitan living cost database.",
+          "dateVerified": "Jan 2026"
+        },
+        {
+          "id": "ev-5",
+          "statement": "Calculated annual investable surplus increases by ₹1.82L even after factoring housing rent and transit.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "medium",
+          "rationale": "FEZI mathematical delta model after adjusting for tax slabs and city living expenses."
+        },
+        {
+          "id": "ev-6",
+          "statement": "Exact variable bonus performance metrics and payout historical realization rate.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Offer letter mentions up to 10% variable pay, but historical team payout percentage was not stated."
+        },
+        {
+          "id": "ev-7",
+          "statement": "Department churn rate and long-term project pipeline stability over the next 24 months.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "low",
+          "rationale": "Private mid-tier firm unlisted metrics."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 86,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Year-1 performance appraisal delivers top-tier 15% increment",
+            "Metro Phase 2 corridor completion shortens commute by 20 minutes",
+            "Rapid promotion track into Module Lead responsibility"
+          ],
+          "summary": "Compounding upside if technical leadership opportunity and appraisal targets are realized."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 78,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "Base compensation at ₹8.0 LPA as formalized in offer",
+            "45-minute daily commute on hybrid 3-day office schedule",
+            "Standard peer learning and steady 10-12% annual market progression"
+          ],
+          "summary": "Solid professional advancement with favorable net financial surplus."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 59,
+          "verdict": "NEUTRAL",
+          "assumptions": [
+            "Variable bonus component fails to pay out due to division targets",
+            "Peak-hour traffic bottlenecks extend commute to 75+ minutes each way",
+            "Legacy bug fixing exceeds promised modern architecture exposure"
+          ],
+          "summary": "Recommendation drops to NEUTRAL if commute friction escalates and bonus realization fails."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-1",
+          "variable": "Offered Compensation Floor",
+          "baselineValue": "₹8.0 LPA",
+          "thresholdCondition": "If offered salary falls below ₹7.2 LPA",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 57,
+          "explanation": "FEZI's recommendation changes from LEAN YES to NEUTRAL because the financial delta no longer covers relocation and commute friction.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-2",
+          "variable": "Commute Duration Ceiling",
+          "baselineValue": "45 mins",
+          "thresholdCondition": "If one-way commute exceeds 85 mins",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 58,
+          "explanation": "Transit friction above 85 minutes degrades lifestyle and wellbeing score, neutralising the financial advantage.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-3",
+          "variable": "Remote Flexibility",
+          "baselineValue": "Hybrid (3 days)",
+          "thresholdCondition": "If company allows 100% Remote",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 86,
+          "explanation": "Zero commute and zero relocation expenses elevates the recommendation to a definitive STRONG YES.",
+          "sensitivity": "MEDIUM"
+        },
+        {
+          "id": "sens-4",
+          "variable": "Joining Retention Bonus",
+          "baselineValue": "None",
+          "thresholdCondition": "If ₹1.5L upfront retention bonus is negotiated",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 83,
+          "explanation": "Covers all relocation and furnishing expenses immediately with zero payback risk after 12 months.",
+          "sensitivity": "MEDIUM"
+        }
+      ],
+      "comparison": {
+        "optionAName": "Chennai Software Developer Offer (₹8.0 LPA)",
+        "optionBName": "Current Baseline Role (₹5.5 LPA)",
+        "optionAScore": 78,
+        "optionBScore": 61,
+        "tradeoffSummary": "The Chennai offer yields a +45% compensation leap and modern microservice stack, offset by an extra 25 minutes of commute compared to your current routine.",
+        "factors": [
+          {
+            "name": "Annual Compensation",
+            "scoreA": 78,
+            "scoreB": 55,
+            "unit": "LPA",
+            "valueA": "₹8.0L",
+            "valueB": "₹5.5L"
+          },
+          {
+            "name": "Career Growth & Stack",
+            "scoreA": 85,
+            "scoreB": 62,
+            "valueA": "Cloud / React / Node",
+            "valueB": "Maintenance / Legacy"
+          },
+          {
+            "name": "Commute & Freedom",
+            "scoreA": 70,
+            "scoreB": 88,
+            "valueA": "45 mins (Hybrid 3d)",
+            "valueB": "20 mins / Flexible"
+          },
+          {
+            "name": "Company Stability",
+            "scoreA": 82,
+            "scoreB": 85,
+            "valueA": "Growing Mid-Tier",
+            "valueB": "Established Firm"
+          },
+          {
+            "name": "Learning Velocity",
+            "scoreA": 84,
+            "scoreB": 58,
+            "valueA": "Modern Microservices",
+            "valueB": "Monolith Support"
+          }
+        ]
+      },
+      "unknowns": [
+        "Exact variable bonus payout realization rate over the past 2 fiscal years.",
+        "Daily on-call incident frequency and weekend emergency support expectations.",
+        "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I accept this ₹8 LPA software developer job in Chennai?",
+        "category": "career",
+        "currentRole": "Junior Software Engineer",
+        "currentSalary": 5.5,
+        "currentLocation": "Coimbatore",
+        "offeredRole": "Software Developer",
+        "offeredSalary": 8,
+        "offeredLocation": "Chennai",
+        "experienceYears": 2.5,
+        "workMode": "hybrid",
+        "commuteMinutes": 45,
+        "companySize": "mid-tier",
+        "careerGoal": "Become a Senior Full Stack Engineer within 2 years"
+      },
+      "userPriorities": {
+        "careerGrowth": 30,
+        "salary": 25,
+        "stability": 15,
+        "workLifeBalance": 15,
+        "locationAndCommute": 15,
+        "learningAndCulture": 10
+      },
+      "sources": [
+        {
+          "title": "Chennai Software Engineer Salary Report 2025-2026",
+          "url": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
+          "domain": "data.gov.in",
+          "authority": "GOVERNMENT",
+          "snippet": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top quartile at ₹11.5L.",
+          "reliabilityScore": 96
+        },
+        {
+          "title": "AmbitionBox & Glassdoor Chennai IT Compensation Index",
+          "url": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
+          "domain": "ambitionbox.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
+          "reliabilityScore": 91
+        },
+        {
+          "title": "Chennai Urban Transport & Living Cost Index (CMDA & Numbeo)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Chennai",
+          "domain": "numbeo.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Living expenses are 22% lower than Bengaluru.",
+          "reliabilityScore": 89
         }
       ]
     },
-    "unknowns": [
-      "Exact variable bonus payout realization rate over the past 2 fiscal years.",
-      "Daily on-call incident frequency and weekend emergency support expectations.",
-      "Formal policy regarding hybrid flexibility during monsoon or peak traffic periods."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I accept this ₹8 LPA software developer job in Chennai?",
-      "category": "career",
-      "currentRole": "Junior Software Engineer",
-      "currentSalary": 5.5,
-      "currentLocation": "Coimbatore",
-      "offeredRole": "Software Developer",
-      "offeredSalary": 8,
-      "offeredLocation": "Chennai",
-      "experienceYears": 2.5,
-      "workMode": "hybrid",
-      "commuteMinutes": 45,
-      "companySize": "mid-tier",
-      "careerGoal": "Become a Senior Full Stack Engineer within 2 years"
-    },
-    "userPriorities": {
-      "careerGrowth": 30,
-      "salary": 25,
-      "stability": 15,
-      "workLifeBalance": 15,
-      "locationAndCommute": 15,
-      "learningAndCulture": 10
-    },
-    "sources": [
-      {
-        "title": "Chennai Software Engineer Salary Report 2025-2026",
-        "url": "https://data.gov.in/resource/it-services-wage-index-tamilnadu",
-        "domain": "data.gov.in",
-        "authority": "GOVERNMENT",
-        "snippet": "Tamil Nadu Electronics & Software Exports Report: 2-4 YOE Software Engineer median package in OMR/Porur tech corridors is ₹6.8L - ₹9.2L p.a., with top quartile at ₹11.5L.",
-        "reliabilityScore": 96
-      },
-      {
-        "title": "AmbitionBox & Glassdoor Chennai IT Compensation Index",
-        "url": "https://www.ambitionbox.com/salaries/chennai-software-engineer-salaries",
-        "domain": "ambitionbox.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Average base pay for 3 YOE Software Developer in Chennai is ₹7.4 LPA. ₹8.0 LPA sits in the 68th percentile for mid-tier product/services firms.",
-        "reliabilityScore": 91
-      },
-      {
-        "title": "Chennai Urban Transport & Living Cost Index (CMDA & Numbeo)",
-        "url": "https://www.numbeo.com/cost-of-living/in/Chennai",
-        "domain": "numbeo.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Chennai 1BHK rent in tech corridors (Thoraipakkam/Perungudi/OMR): ₹14,000 - ₹21,000/mo. Living expenses are 22% lower than Bengaluru.",
-        "reliabilityScore": 89
-      }
-    ]
-  },
-  {
-    "id": "dec-dubai-move",
-    "createdAt": "2026-09-28T14:15:00.000Z",
-    "title": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
-    "category": "relocation",
-    "score": 72,
-    "verdict": "LEAN YES",
-    "confidence": "HIGH",
-    "confidenceScore": 88,
-    "confidenceReasons": [
-      "Verified zero-income tax regulations from UAE Ministry of Finance",
-      "Cost-of-living benchmarks compared between London Zone 2 and Dubai Marina",
-      "Visa sponsorship and private health insurance fully documented in contract"
-    ],
-    "summary": "FEZI evaluates the London to Dubai relocation at 72/100 (LEAN YES) with HIGH Confidence. Zero tax boosts net disposable take-home pay by +62%, though high summer temperatures and schooling costs represent notable lifestyle trade-offs.",
-    "whyRecommended": [
-      "Financial gain is immense: Zero personal income tax creates £42,000 extra annual savings compared to UK 40% tax bracket.",
-      "Booming MENA FinTech ecosystem with high venture investment and international networking.",
-      "World-class safety, zero street crime, and high standard of municipal services."
-    ],
-    "biggestAdvantages": [
-      "Net Take-Home Pay: 100% tax retention allows aggressive wealth compounding.",
-      "Regional Leadership: Managing GCC-wide financial infrastructure expansion.",
-      "Expat Lifestyle: Modern amenities, beachside living, and premium infrastructure."
-    ],
-    "biggestRisks": [
-      "Extreme Summer Climate: 4-5 months of 42°C+ outdoor heat limiting active mobility.",
-      "High Rental Volatility: Dubai annual rent inflation of 12-18% in prime districts.",
-      "Employment Visa Dependency: Residency is tied to employer sponsorship."
-    ],
-    "factors": [
-      {
-        "id": "fin-gain",
-        "name": "Net Disposable Income",
-        "category": "Financial",
-        "weight": 35,
-        "rawScore": 92,
-        "weightedContribution": 32.2,
-        "explanation": "0% income tax transforms £95,000 gross into ~£95,000 net, compared to ~£62,000 net in the UK."
-      },
-      {
-        "id": "career-growth",
-        "name": "FinTech Leadership Runway",
-        "category": "Professional",
-        "weight": 25,
-        "rawScore": 78,
-        "weightedContribution": 19.5,
-        "explanation": "Direct ownership of regional cross-border payment gateways in GCC hub."
-      },
-      {
-        "id": "lifestyle",
-        "name": "Lifestyle & Climate Adjustment",
-        "category": "Lifestyle",
-        "weight": 20,
-        "rawScore": 54,
-        "weightedContribution": 10.8,
-        "explanation": "Intense summer temperatures restrict outdoor life from June to September."
-      },
-      {
-        "id": "security",
-        "name": "Civic Safety & Amenities",
-        "category": "Environment",
-        "weight": 20,
-        "rawScore": 94,
-        "weightedContribution": 18.8,
-        "explanation": "Consistently ranked top-3 globally for expatriate personal safety and public hygiene."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-dubai-1",
-        "statement": "Offered compensation: 40,000 AED/month (£96,500/yr tax-free) with medical and annual flights.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Candidate offer contract terms."
-      },
-      {
-        "id": "ev-dubai-2",
-        "statement": "UAE Federal Tax Authority: 0% personal income tax on employment earnings.",
-        "type": "VERIFIED",
-        "sourceName": "UAE Federal Tax Authority (tax.gov.ae)",
-        "sourceUrl": "https://tax.gov.ae",
-        "confidenceImpact": "high",
-        "rationale": "Official state tax statute."
-      },
-      {
-        "id": "ev-dubai-3",
-        "statement": "Dubai Marina 1-bedroom average annual lease is 92,000 AED (£19,800/yr).",
-        "type": "VERIFIED",
-        "sourceName": "Dubai Land Department Rental Index",
-        "sourceUrl": "https://dubailand.gov.ae",
-        "confidenceImpact": "high",
-        "rationale": "Official government property transaction registry."
-      },
-      {
-        "id": "ev-dubai-4",
-        "statement": "Estimated net annual savings potential: £46,000 after rent, car lease, and leisure.",
-        "type": "ESTIMATED",
-        "confidenceImpact": "high",
-        "rationale": "Modeled financial delta compared to London living expenses."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 84,
-        "verdict": "STRONG YES",
-        "assumptions": [
-          "Company provides corporate housing allowance renewal in Year 2",
-          "Promotion to VP of Engineering within 18 months",
-          "Favorable exchange rate movements between GBP and AED"
-        ],
-        "summary": "Exceptional wealth creation and executive leadership elevation."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 72,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "Stable 40,000 AED monthly salary with standard living inflation",
-          "Comfortable expat living with 45% net savings rate"
-        ],
-        "summary": "Substantial financial acceleration with manageable climate adaptation."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 54,
-        "verdict": "NEUTRAL",
-        "assumptions": [
-          "Rent increases 25% year-on-year in preferred residential zones",
-          "Company experiences restructuring after 10 months"
-        ],
-        "summary": "High fixed expat overhead becomes burdensome if tenure is cut short."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-d1",
-        "variable": "Company Housing Subsidy",
-        "baselineValue": "Self-paid out of salary",
-        "thresholdCondition": "If employer covers 50% of annual housing lease",
-        "resultingVerdict": "STRONG YES",
-        "resultingScore": 84,
-        "explanation": "Removing rental uncertainty eliminates the biggest expense volatility in Dubai.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-d2",
-        "variable": "Target Tenure",
-        "baselineValue": "3 Years",
-        "thresholdCondition": "If candidate plans to stay < 14 months",
-        "resultingVerdict": "NEUTRAL",
-        "resultingScore": 52,
-        "explanation": "Moving costs, agent fees, and furniture amortize poorly over short tenures.",
-        "sensitivity": "HIGH"
-      }
-    ],
-    "unknowns": [
-      "Exact end-of-service gratuity calculation formula used by company.",
-      "Schooling allowance terms if relocating with dependents in the future."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
+    {
+      "id": "dec-dubai-move",
+      "createdAt": "2026-09-28T14:15:00.000Z",
+      "title": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
       "category": "relocation",
-      "currentLocation": "London, UK",
-      "offeredLocation": "Dubai, UAE",
-      "offeredSalary": 95000,
-      "workMode": "hybrid"
+      "score": 72,
+      "verdict": "LEAN YES",
+      "confidence": "HIGH",
+      "confidenceScore": 88,
+      "confidenceReasons": [
+        "Verified zero-income tax regulations from UAE Ministry of Finance",
+        "Cost-of-living benchmarks compared between London Zone 2 and Dubai Marina",
+        "Visa sponsorship and private health insurance fully documented in contract"
+      ],
+      "summary": "FEZI evaluates the London to Dubai relocation at 72/100 (LEAN YES) with HIGH Confidence. Zero tax boosts net disposable take-home pay by +62%, though high summer temperatures and schooling costs represent notable lifestyle trade-offs.",
+      "whyRecommended": [
+        "Financial gain is immense: Zero personal income tax creates £42,000 extra annual savings compared to UK 40% tax bracket.",
+        "Booming MENA FinTech ecosystem with high venture investment and international networking.",
+        "World-class safety, zero street crime, and high standard of municipal services."
+      ],
+      "biggestAdvantages": [
+        "Net Take-Home Pay: 100% tax retention allows aggressive wealth compounding.",
+        "Regional Leadership: Managing GCC-wide financial infrastructure expansion.",
+        "Expat Lifestyle: Modern amenities, beachside living, and premium infrastructure."
+      ],
+      "biggestRisks": [
+        "Extreme Summer Climate: 4-5 months of 42°C+ outdoor heat limiting active mobility.",
+        "High Rental Volatility: Dubai annual rent inflation of 12-18% in prime districts.",
+        "Employment Visa Dependency: Residency is tied to employer sponsorship."
+      ],
+      "factors": [
+        {
+          "id": "fin-gain",
+          "name": "Net Disposable Income",
+          "category": "Financial",
+          "weight": 35,
+          "rawScore": 92,
+          "weightedContribution": 32.2,
+          "explanation": "0% income tax transforms £95,000 gross into ~£95,000 net, compared to ~£62,000 net in the UK."
+        },
+        {
+          "id": "career-growth",
+          "name": "FinTech Leadership Runway",
+          "category": "Professional",
+          "weight": 25,
+          "rawScore": 78,
+          "weightedContribution": 19.5,
+          "explanation": "Direct ownership of regional cross-border payment gateways in GCC hub."
+        },
+        {
+          "id": "lifestyle",
+          "name": "Lifestyle & Climate Adjustment",
+          "category": "Lifestyle",
+          "weight": 20,
+          "rawScore": 54,
+          "weightedContribution": 10.8,
+          "explanation": "Intense summer temperatures restrict outdoor life from June to September."
+        },
+        {
+          "id": "security",
+          "name": "Civic Safety & Amenities",
+          "category": "Environment",
+          "weight": 20,
+          "rawScore": 94,
+          "weightedContribution": 18.8,
+          "explanation": "Consistently ranked top-3 globally for expatriate personal safety and public hygiene."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-dubai-1",
+          "statement": "Offered compensation: 40,000 AED/month (£96,500/yr tax-free) with medical and annual flights.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Candidate offer contract terms."
+        },
+        {
+          "id": "ev-dubai-2",
+          "statement": "UAE Federal Tax Authority: 0% personal income tax on employment earnings.",
+          "type": "VERIFIED",
+          "sourceName": "UAE Federal Tax Authority (tax.gov.ae)",
+          "sourceUrl": "https://tax.gov.ae",
+          "confidenceImpact": "high",
+          "rationale": "Official state tax statute."
+        },
+        {
+          "id": "ev-dubai-3",
+          "statement": "Dubai Marina 1-bedroom average annual lease is 92,000 AED (£19,800/yr).",
+          "type": "VERIFIED",
+          "sourceName": "Dubai Land Department Rental Index",
+          "sourceUrl": "https://dubailand.gov.ae",
+          "confidenceImpact": "high",
+          "rationale": "Official government property transaction registry."
+        },
+        {
+          "id": "ev-dubai-4",
+          "statement": "Estimated net annual savings potential: £46,000 after rent, car lease, and leisure.",
+          "type": "ESTIMATED",
+          "confidenceImpact": "high",
+          "rationale": "Modeled financial delta compared to London living expenses."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 84,
+          "verdict": "STRONG YES",
+          "assumptions": [
+            "Company provides corporate housing allowance renewal in Year 2",
+            "Promotion to VP of Engineering within 18 months",
+            "Favorable exchange rate movements between GBP and AED"
+          ],
+          "summary": "Exceptional wealth creation and executive leadership elevation."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 72,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "Stable 40,000 AED monthly salary with standard living inflation",
+            "Comfortable expat living with 45% net savings rate"
+          ],
+          "summary": "Substantial financial acceleration with manageable climate adaptation."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 54,
+          "verdict": "NEUTRAL",
+          "assumptions": [
+            "Rent increases 25% year-on-year in preferred residential zones",
+            "Company experiences restructuring after 10 months"
+          ],
+          "summary": "High fixed expat overhead becomes burdensome if tenure is cut short."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-d1",
+          "variable": "Company Housing Subsidy",
+          "baselineValue": "Self-paid out of salary",
+          "thresholdCondition": "If employer covers 50% of annual housing lease",
+          "resultingVerdict": "STRONG YES",
+          "resultingScore": 84,
+          "explanation": "Removing rental uncertainty eliminates the biggest expense volatility in Dubai.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-d2",
+          "variable": "Target Tenure",
+          "baselineValue": "3 Years",
+          "thresholdCondition": "If candidate plans to stay < 14 months",
+          "resultingVerdict": "NEUTRAL",
+          "resultingScore": 52,
+          "explanation": "Moving costs, agent fees, and furniture amortize poorly over short tenures.",
+          "sensitivity": "HIGH"
+        }
+      ],
+      "unknowns": [
+        "Exact end-of-service gratuity calculation formula used by company.",
+        "Schooling allowance terms if relocating with dependents in the future."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I move from London to Dubai for a £95k Tax-Free FinTech Lead role?",
+        "category": "relocation",
+        "currentLocation": "London, UK",
+        "offeredLocation": "Dubai, UAE",
+        "offeredSalary": 95000,
+        "workMode": "hybrid"
+      },
+      "userPriorities": {
+        "careerGrowth": 25,
+        "salary": 35,
+        "stability": 15,
+        "workLifeBalance": 10,
+        "locationAndCommute": 15,
+        "learningAndCulture": 0
+      },
+      "sources": [
+        {
+          "title": "UAE Federal Tax Authority Guidelines",
+          "url": "https://tax.gov.ae",
+          "domain": "tax.gov.ae",
+          "authority": "GOVERNMENT",
+          "snippet": "Zero personal income tax and zero capital gains tax regime on employment remuneration.",
+          "reliabilityScore": 99
+        }
+      ]
     },
-    "userPriorities": {
-      "careerGrowth": 25,
-      "salary": 35,
-      "stability": 15,
-      "workLifeBalance": 10,
-      "locationAndCommute": 15,
-      "learningAndCulture": 0
-    },
-    "sources": [
-      {
-        "title": "UAE Federal Tax Authority Guidelines",
-        "url": "https://tax.gov.ae",
-        "domain": "tax.gov.ae",
-        "authority": "GOVERNMENT",
-        "snippet": "Zero personal income tax and zero capital gains tax regime on employment remuneration.",
-        "reliabilityScore": 99
-      }
-    ]
-  },
-  {
-    "id": "dec-saas-startup",
-    "createdAt": "2026-09-20T09:00:00.000Z",
-    "title": "Should I quit my corporate PM role to start a B2B SaaS venture with $50k runway?",
-    "category": "business",
-    "score": 52,
-    "verdict": "NEUTRAL",
-    "confidence": "LOW",
-    "confidenceScore": 48,
-    "confidenceReasons": [
-      "Only 8 months of personal cash runway before break-even required",
-      "No formal letters of intent (LOIs) or pre-orders secured yet",
-      "High uncertainty in B2B enterprise procurement sales cycle"
-    ],
-    "summary": "FEZI evaluates quitting immediately at 52/100 (NEUTRAL) with LOW Confidence. While the entrepreneurial upside and founder equity are compelling, $50k runway leaves only 8 months of survival against a typical 6-9 month enterprise sales cycle.",
-    "whyRecommended": [
-      "Full upside ownership: 100% equity stake in high-margin software business.",
-      "Accelerated founder learning curve far outpacing corporate PM trajectory.",
-      "Validated pain point identified from candidate corporate experience."
-    ],
-    "biggestAdvantages": [
-      "Unlimited Equity Upside: Value creation accrues to founder rather than corporate employers.",
-      "Autonomy and Speed: Direct decision-making with zero bureaucratic overhead."
-    ],
-    "biggestRisks": [
-      "Cash Depletion Risk: $50k runway risks running dry before product-market fit is achieved.",
-      "Sales Cycle Mismatch: Enterprise B2B buyers frequently take 90-180 days to sign procurement.",
-      "Loss of Health and Retirement Benefits during critical development phase."
-    ],
-    "factors": [
-      {
-        "id": "financial-risk",
-        "name": "Financial Runway & Safety",
-        "category": "Financial",
-        "weight": 35,
-        "rawScore": 38,
-        "weightedContribution": 13.3,
-        "explanation": "8 months of living runway is dangerously narrow for unproven B2B product validation."
-      },
-      {
-        "id": "upside",
-        "name": "Long-term Equity Upside",
-        "category": "Growth",
-        "weight": 30,
-        "rawScore": 88,
-        "weightedContribution": 26.4,
-        "explanation": "SaaS venture multiples and compounding ownership generate massive asymmetric payoff if successful."
-      },
-      {
-        "id": "market-validation",
-        "name": "Pre-launch Validation",
-        "category": "Risk",
-        "weight": 20,
-        "rawScore": 40,
-        "weightedContribution": 8,
-        "explanation": "No signed paid pilots or binding LOIs entered prior to resignation."
-      },
-      {
-        "id": "wellbeing",
-        "name": "Psychological & Stress Load",
-        "category": "Lifestyle",
-        "weight": 15,
-        "rawScore": 45,
-        "weightedContribution": 6.75,
-        "explanation": "Solo founder isolation with high anxiety regarding burn rate."
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ev-s1",
-        "statement": "Personal savings dedicated to business runway: $50,000.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Self-reported savings pool."
-      },
-      {
-        "id": "ev-s2",
-        "statement": "Average B2B SaaS initial sales cycle is 4.2 to 6.8 months from lead to contract execution.",
-        "type": "VERIFIED",
-        "sourceName": "OpenView B2B SaaS Benchmark Report",
-        "sourceUrl": "https://openviewpartners.com/benchmarks",
-        "confidenceImpact": "high",
-        "rationale": "Benchmark dataset across 400+ enterprise software companies."
-      },
-      {
-        "id": "ev-s3",
-        "statement": "Founder does not currently hold written Letters of Intent (LOIs) with target buyers.",
-        "type": "USER_PROVIDED",
-        "confidenceImpact": "high",
-        "rationale": "Disclosed in discovery questions."
-      },
-      {
-        "id": "ev-s4",
-        "statement": "Exact monthly burn rate after cloud infrastructure and legal incorporation.",
-        "type": "UNKNOWN",
-        "confidenceImpact": "medium",
-        "rationale": "Budget model not yet finalized."
-      }
-    ],
-    "scenarios": [
-      {
-        "type": "BEST_CASE",
-        "label": "Best Case",
-        "score": 79,
-        "verdict": "LEAN YES",
-        "assumptions": [
-          "First 3 enterprise customers convert within 90 days",
-          "Seed angel investment of $150k secured at month 5"
-        ],
-        "summary": "Immediate product-market fit validates early full-time plunge."
-      },
-      {
-        "type": "EXPECTED_CASE",
-        "label": "Expected Baseline",
-        "score": 52,
-        "verdict": "NEUTRAL",
-        "assumptions": [
-          "MVP development takes 4 months, leaving only 4 months of sales runway",
-          "Near-zero revenue in first 6 months"
-        ],
-        "summary": "High pressure situation requiring bridge consulting or personal debt."
-      },
-      {
-        "type": "WORST_CASE",
-        "label": "Worst Case",
-        "score": 28,
-        "verdict": "LEAN NO",
-        "assumptions": [
-          "Runway runs out before securing first paying customer",
-          "Founder forced to return to corporate job under adverse terms"
-        ],
-        "summary": "Capital exhaustion before commercial viability."
-      }
-    ],
-    "sensitivity": [
-      {
-        "id": "sens-s1",
-        "variable": "Pre-sales Validation",
-        "baselineValue": "0 signed LOIs",
-        "thresholdCondition": "Secure 3 signed LOIs before quitting corporate job",
-        "resultingVerdict": "LEAN YES",
-        "resultingScore": 74,
-        "explanation": "Validating demand while still employed removes existential risk and elevates score to 74/100.",
-        "sensitivity": "HIGH"
-      },
-      {
-        "id": "sens-s2",
-        "variable": "Runway Extension",
-        "baselineValue": "$50,000 (8 mos)",
-        "thresholdCondition": "Accumulate $90,000+ (14+ mos runway)",
-        "resultingVerdict": "LEAN YES",
-        "resultingScore": 71,
-        "explanation": "Provides sufficient breathing room to survive normal enterprise procurement latency.",
-        "sensitivity": "HIGH"
-      }
-    ],
-    "unknowns": [
-      "Customer acquisition cost (CAC) per enterprise account.",
-      "Willingness of enterprise procurement to onboard an early-stage startup vendor."
-    ],
-    "userContext": {
-      "decisionTitle": "Should I quit my corporate PM role to start a B2B SaaS venture with $50k runway?",
+    {
+      "id": "dec-saas-startup",
+      "createdAt": "2026-09-20T09:00:00.000Z",
+      "title": "Should I quit my corporate PM role to start a B2B SaaS venture with $50k runway?",
       "category": "business",
-      "currentRole": "Senior Product Manager",
-      "currentSalary": 140000
-    },
-    "userPriorities": {
-      "careerGrowth": 30,
-      "salary": 15,
-      "stability": 35,
-      "workLifeBalance": 10,
-      "locationAndCommute": 0,
-      "learningAndCulture": 10
-    },
-    "sources": [
-      {
-        "title": "OpenView Enterprise Software Benchmarks",
-        "url": "https://openviewpartners.com/benchmarks",
-        "domain": "openviewpartners.com",
-        "authority": "MARKET_BENCHMARK",
-        "snippet": "Early-stage B2B enterprise procurement cycles average 4-7 months.",
-        "reliabilityScore": 94
-      }
-    ]
-  }
-]
+      "score": 52,
+      "verdict": "NEUTRAL",
+      "confidence": "LOW",
+      "confidenceScore": 48,
+      "confidenceReasons": [
+        "Only 8 months of personal cash runway before break-even required",
+        "No formal letters of intent (LOIs) or pre-orders secured yet",
+        "High uncertainty in B2B enterprise procurement sales cycle"
+      ],
+      "summary": "FEZI evaluates quitting immediately at 52/100 (NEUTRAL) with LOW Confidence. While the entrepreneurial upside and founder equity are compelling, $50k runway leaves only 8 months of survival against a typical 6-9 month enterprise sales cycle.",
+      "whyRecommended": [
+        "Full upside ownership: 100% equity stake in high-margin software business.",
+        "Accelerated founder learning curve far outpacing corporate PM trajectory.",
+        "Validated pain point identified from candidate corporate experience."
+      ],
+      "biggestAdvantages": [
+        "Unlimited Equity Upside: Value creation accrues to founder rather than corporate employers.",
+        "Autonomy and Speed: Direct decision-making with zero bureaucratic overhead."
+      ],
+      "biggestRisks": [
+        "Cash Depletion Risk: $50k runway risks running dry before product-market fit is achieved.",
+        "Sales Cycle Mismatch: Enterprise B2B buyers frequently take 90-180 days to sign procurement.",
+        "Loss of Health and Retirement Benefits during critical development phase."
+      ],
+      "factors": [
+        {
+          "id": "financial-risk",
+          "name": "Financial Runway & Safety",
+          "category": "Financial",
+          "weight": 35,
+          "rawScore": 38,
+          "weightedContribution": 13.3,
+          "explanation": "8 months of living runway is dangerously narrow for unproven B2B product validation."
+        },
+        {
+          "id": "upside",
+          "name": "Long-term Equity Upside",
+          "category": "Growth",
+          "weight": 30,
+          "rawScore": 88,
+          "weightedContribution": 26.4,
+          "explanation": "SaaS venture multiples and compounding ownership generate massive asymmetric payoff if successful."
+        },
+        {
+          "id": "market-validation",
+          "name": "Pre-launch Validation",
+          "category": "Risk",
+          "weight": 20,
+          "rawScore": 40,
+          "weightedContribution": 8,
+          "explanation": "No signed paid pilots or binding LOIs entered prior to resignation."
+        },
+        {
+          "id": "wellbeing",
+          "name": "Psychological & Stress Load",
+          "category": "Lifestyle",
+          "weight": 15,
+          "rawScore": 45,
+          "weightedContribution": 6.75,
+          "explanation": "Solo founder isolation with high anxiety regarding burn rate."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-s1",
+          "statement": "Personal savings dedicated to business runway: $50,000.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Self-reported savings pool."
+        },
+        {
+          "id": "ev-s2",
+          "statement": "Average B2B SaaS initial sales cycle is 4.2 to 6.8 months from lead to contract execution.",
+          "type": "VERIFIED",
+          "sourceName": "OpenView B2B SaaS Benchmark Report",
+          "sourceUrl": "https://openviewpartners.com/benchmarks",
+          "confidenceImpact": "high",
+          "rationale": "Benchmark dataset across 400+ enterprise software companies."
+        },
+        {
+          "id": "ev-s3",
+          "statement": "Founder does not currently hold written Letters of Intent (LOIs) with target buyers.",
+          "type": "USER_PROVIDED",
+          "confidenceImpact": "high",
+          "rationale": "Disclosed in discovery questions."
+        },
+        {
+          "id": "ev-s4",
+          "statement": "Exact monthly burn rate after cloud infrastructure and legal incorporation.",
+          "type": "UNKNOWN",
+          "confidenceImpact": "medium",
+          "rationale": "Budget model not yet finalized."
+        }
+      ],
+      "scenarios": [
+        {
+          "type": "BEST_CASE",
+          "label": "Best Case",
+          "score": 79,
+          "verdict": "LEAN YES",
+          "assumptions": [
+            "First 3 enterprise customers convert within 90 days",
+            "Seed angel investment of $150k secured at month 5"
+          ],
+          "summary": "Immediate product-market fit validates early full-time plunge."
+        },
+        {
+          "type": "EXPECTED_CASE",
+          "label": "Expected Baseline",
+          "score": 52,
+          "verdict": "NEUTRAL",
+          "assumptions": [
+            "MVP development takes 4 months, leaving only 4 months of sales runway",
+            "Near-zero revenue in first 6 months"
+          ],
+          "summary": "High pressure situation requiring bridge consulting or personal debt."
+        },
+        {
+          "type": "WORST_CASE",
+          "label": "Worst Case",
+          "score": 28,
+          "verdict": "LEAN NO",
+          "assumptions": [
+            "Runway runs out before securing first paying customer",
+            "Founder forced to return to corporate job under adverse terms"
+          ],
+          "summary": "Capital exhaustion before commercial viability."
+        }
+      ],
+      "sensitivity": [
+        {
+          "id": "sens-s1",
+          "variable": "Pre-sales Validation",
+          "baselineValue": "0 signed LOIs",
+          "thresholdCondition": "Secure 3 signed LOIs before quitting corporate job",
+          "resultingVerdict": "LEAN YES",
+          "resultingScore": 74,
+          "explanation": "Validating demand while still employed removes existential risk and elevates score to 74/100.",
+          "sensitivity": "HIGH"
+        },
+        {
+          "id": "sens-s2",
+          "variable": "Runway Extension",
+          "baselineValue": "$50,000 (8 mos)",
+          "thresholdCondition": "Accumulate $90,000+ (14+ mos runway)",
+          "resultingVerdict": "LEAN YES",
+          "resultingScore": 71,
+          "explanation": "Provides sufficient breathing room to survive normal enterprise procurement latency.",
+          "sensitivity": "HIGH"
+        }
+      ],
+      "unknowns": [
+        "Customer acquisition cost (CAC) per enterprise account.",
+        "Willingness of enterprise procurement to onboard an early-stage startup vendor."
+      ],
+      "userContext": {
+        "decisionTitle": "Should I quit my corporate PM role to start a B2B SaaS venture with $50k runway?",
+        "category": "business",
+        "currentRole": "Senior Product Manager",
+        "currentSalary": 140000
+      },
+      "userPriorities": {
+        "careerGrowth": 30,
+        "salary": 15,
+        "stability": 35,
+        "workLifeBalance": 10,
+        "locationAndCommute": 0,
+        "learningAndCulture": 10
+      },
+      "sources": [
+        {
+          "title": "OpenView Enterprise Software Benchmarks",
+          "url": "https://openviewpartners.com/benchmarks",
+          "domain": "openviewpartners.com",
+          "authority": "MARKET_BENCHMARK",
+          "snippet": "Early-stage B2B enterprise procurement cycles average 4-7 months.",
+          "reliabilityScore": 94
+        }
+      ]
+    }
+  ],
+  "reports": [],
+  "shares": []
+}

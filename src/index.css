@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: rgba(245, 245, 242, 0.08);
+  }
+  body {
+    background-color: #090B0C;
+    color: #F5F5F2;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Strict Brand Utilities */
+.section-dark {
+  background-color: #090B0C;
+  color: #F5F5F2;
+}
+
+.section-light {
+  background-color: #F5F5F2;
+  color: #090B0C;
+}
+
+.card-dark {
+  background-color: #0F1214;
+  border: 1px solid rgba(245, 245, 242, 0.08);
+}
+
+.card-light {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(9, 11, 12, 0.08);
+}
+
+/* Custom monochrome scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #090B0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2428;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2E363D;
+}

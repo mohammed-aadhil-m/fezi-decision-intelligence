@@ -1,0 +1,12 @@
+services:
+  # FEZI AI Decision Intelligence Platform
+  # Web Service running both the frontend SPA & backend REST API
+  - type: web
+    name: fezi
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
